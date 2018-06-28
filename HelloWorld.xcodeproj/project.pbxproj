@@ -753,7 +753,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImageTest;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2354QPR3HC;
-				GCC_PREFIX_HEADER = /Users/user/Desktop/MobileVLCKit/HelloWorld/HelloWorld/PCH/PrefixHeaderTest.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HelloWorld/PCH/PrefixHeaderTest.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -776,7 +776,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImageTest;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2354QPR3HC;
-				GCC_PREFIX_HEADER = /Users/user/Desktop/MobileVLCKit/HelloWorld/HelloWorld/PCH/PrefixHeaderTest.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HelloWorld/PCH/PrefixHeaderTest.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_VERSION=2";
 				INFOPLIST_FILE = "HelloWorld copy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -899,7 +899,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2354QPR3HC;
-				GCC_PREFIX_HEADER = /Users/user/Desktop/MobileVLCKit/HelloWorld/HelloWorld/PCH/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HelloWorld/PCH/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -922,7 +922,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2354QPR3HC;
-				GCC_PREFIX_HEADER = /Users/user/Desktop/MobileVLCKit/HelloWorld/HelloWorld/PCH/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HelloWorld/PCH/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_VERSION=1";
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
