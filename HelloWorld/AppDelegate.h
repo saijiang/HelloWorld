@@ -11,7 +11,8 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-
+@property(nonatomic,copy) NSString *locationName;
+@property(nonatomic,assign) CGFloat locationLatitude;//纬度
+@property(nonatomic,assign) CGFloat locationLongitude;//经度
 @end
 

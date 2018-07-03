@@ -14,16 +14,29 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - AMapFoundation (1.5.2)
+  - AMapLocation (2.6.0):
+    - AMapFoundation (~> 1.4)
   - CYLTabBarController (1.17.6)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
+  - AMapLocation (~> 2.6.0)
   - CYLTabBarController (~> 1.17.6)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AMapFoundation
+    - AMapLocation
+    - CYLTabBarController
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AMapFoundation: 46b194013a3b06e0e82e8963108ceb972d4200b8
+  AMapLocation: 55116a2c8956eab7550cbb56e989aa5cdcc424e3
   CYLTabBarController: c374643dea6dadece8bdff9c70f7387f8ffd7d08
 
-PODFILE CHECKSUM: 4ffc81d39189ae209d026ac6abf2052a8b3d84da
+PODFILE CHECKSUM: 780aa736a2f647e4516205c2e3efd0e641a764fa
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.3

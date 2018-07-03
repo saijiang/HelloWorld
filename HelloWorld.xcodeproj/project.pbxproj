@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45A2132420EB084C0095A250 /* JJWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2132320EB084C0095A250 /* JJWIFI.m */; };
+		45A2132520EB084C0095A250 /* JJWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2132320EB084C0095A250 /* JJWIFI.m */; };
+		45A2132920EB22020095A250 /* HeWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A2132820EB22020095A250 /* HeWeather.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		45A2132A20EB22020095A250 /* HeWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A2132820EB22020095A250 /* HeWeather.framework */; };
+		45A2132F20EB4E060095A250 /* global.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2132E20EB4E060095A250 /* global.m */; };
+		45A2133020EB4E060095A250 /* global.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2132E20EB4E060095A250 /* global.m */; };
+		45A2133420EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2133320EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m */; };
+		45A2133520EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2133320EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m */; };
+		45A2133820EB6DEE0095A250 /* MMNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2133720EB6DEE0095A250 /* MMNetWorking.m */; };
+		45A2133920EB6DEE0095A250 /* MMNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2133720EB6DEE0095A250 /* MMNetWorking.m */; };
+		45A2133C20EB70B70095A250 /* MMHttpDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2133B20EB70B70095A250 /* MMHttpDataManager.m */; };
+		45A2133D20EB70B70095A250 /* MMHttpDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2133B20EB70B70095A250 /* MMHttpDataManager.m */; };
+		45A2134020EB78A90095A250 /* 和风天气状况代码和图标文档.md in Resources */ = {isa = PBXBuildFile; fileRef = 45A2133F20EB78A90095A250 /* 和风天气状况代码和图标文档.md */; };
+		45A2134120EB78A90095A250 /* 和风天气状况代码和图标文档.md in Resources */ = {isa = PBXBuildFile; fileRef = 45A2133F20EB78A90095A250 /* 和风天气状况代码和图标文档.md */; };
 		939F1075F03101570F0A8D03 /* libPods-HelloWorldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4693E82AF1BE7F56A004F7A9 /* libPods-HelloWorldTests.a */; };
 		B907670A8D25F51C33F00F47 /* libPods-HelloWorld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6E001893822EBE47AB98B5 /* libPods-HelloWorld.a */; };
 		BE7CDD4F4AFB652C92918833 /* libPods-HelloWorldTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6759FEABE153F51B1AB7D1 /* libPods-HelloWorldTest.a */; };
@@ -64,6 +78,19 @@
 		277A90680086CFAC7A4238C1 /* Pods-HelloWorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2B6759FEABE153F51B1AB7D1 /* libPods-HelloWorldTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE432DF0A35D11FEECE5783 /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		45A2132220EB084C0095A250 /* JJWIFI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJWIFI.h; sourceTree = "<group>"; };
+		45A2132320EB084C0095A250 /* JJWIFI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJWIFI.m; sourceTree = "<group>"; };
+		45A2132820EB22020095A250 /* HeWeather.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HeWeather.framework; sourceTree = "<group>"; };
+		45A2132D20EB4E060095A250 /* global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		45A2132E20EB4E060095A250 /* global.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = global.m; sourceTree = "<group>"; };
+		45A2133220EB6D910095A250 /* AFHTTPSessionManager+Synchronous.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+Synchronous.h"; sourceTree = "<group>"; };
+		45A2133320EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+Synchronous.m"; sourceTree = "<group>"; };
+		45A2133620EB6DEE0095A250 /* MMNetWorking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMNetWorking.h; sourceTree = "<group>"; };
+		45A2133720EB6DEE0095A250 /* MMNetWorking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMNetWorking.m; sourceTree = "<group>"; };
+		45A2133A20EB70B70095A250 /* MMHttpDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMHttpDataManager.h; sourceTree = "<group>"; };
+		45A2133B20EB70B70095A250 /* MMHttpDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMHttpDataManager.m; sourceTree = "<group>"; };
+		45A2133E20EB713D0095A250 /* HttpRequestUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpRequestUrl.h; sourceTree = "<group>"; };
+		45A2133F20EB78A90095A250 /* 和风天气状况代码和图标文档.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "和风天气状况代码和图标文档.md"; sourceTree = "<group>"; };
 		4693E82AF1BE7F56A004F7A9 /* libPods-HelloWorldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91276752634D8ECA06472031 /* Pods-HelloWorldTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTest/Pods-HelloWorldTest.release.xcconfig"; sourceTree = "<group>"; };
 		9D9F146CEB308CB620F51A63 /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A2132A20EB22020095A250 /* HeWeather.framework in Frameworks */,
 				BE7CDD4F4AFB652C92918833 /* libPods-HelloWorldTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB8D4CB207C4CFD006F5C83 /* AVFoundation.framework in Frameworks */,
+				45A2132920EB22020095A250 /* HeWeather.framework in Frameworks */,
 				B907670A8D25F51C33F00F47 /* libPods-HelloWorld.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,9 +188,76 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		45A2132020EB07F20095A250 /* Nsobject */ = {
+			isa = PBXGroup;
+			children = (
+				45A2132120EB08160095A250 /* WIFI */,
+			);
+			path = Nsobject;
+			sourceTree = "<group>";
+		};
+		45A2132120EB08160095A250 /* WIFI */ = {
+			isa = PBXGroup;
+			children = (
+				45A2132220EB084C0095A250 /* JJWIFI.h */,
+				45A2132320EB084C0095A250 /* JJWIFI.m */,
+			);
+			path = WIFI;
+			sourceTree = "<group>";
+		};
+		45A2132620EB219D0095A250 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				45A2132720EB21DB0095A250 /* HeWeather */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		45A2132720EB21DB0095A250 /* HeWeather */ = {
+			isa = PBXGroup;
+			children = (
+				45A2132820EB22020095A250 /* HeWeather.framework */,
+			);
+			path = HeWeather;
+			sourceTree = "<group>";
+		};
+		45A2132B20EB4DBF0095A250 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				45A2133F20EB78A90095A250 /* 和风天气状况代码和图标文档.md */,
+				45A2133120EB6C100095A250 /* Http */,
+				45A2132C20EB4DEF0095A250 /* globalFile */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		45A2132C20EB4DEF0095A250 /* globalFile */ = {
+			isa = PBXGroup;
+			children = (
+				45A2132D20EB4E060095A250 /* global.h */,
+				45A2132E20EB4E060095A250 /* global.m */,
+			);
+			path = globalFile;
+			sourceTree = "<group>";
+		};
+		45A2133120EB6C100095A250 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				45A2133220EB6D910095A250 /* AFHTTPSessionManager+Synchronous.h */,
+				45A2133320EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m */,
+				45A2133620EB6DEE0095A250 /* MMNetWorking.h */,
+				45A2133720EB6DEE0095A250 /* MMNetWorking.m */,
+				45A2133A20EB70B70095A250 /* MMHttpDataManager.h */,
+				45A2133B20EB70B70095A250 /* MMHttpDataManager.m */,
+				45A2133E20EB713D0095A250 /* HttpRequestUrl.h */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
 		CE42967D207B5525009024B3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				45A2132020EB07F20095A250 /* Nsobject */,
 				CEDC773F207DF3FD00036186 /* ControlPage */,
 				CEDC7735207DB05000036186 /* Controller */,
 				CEDC7730207DB01800036186 /* RooterController */,
@@ -206,6 +302,8 @@
 		CE94CD81207B51920050F910 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				45A2132B20EB4DBF0095A250 /* Tools */,
+				45A2132620EB219D0095A250 /* Vendors */,
 				CEDC773A207DF29C00036186 /* Nativition */,
 				CE42968D207B57FD009024B3 /* PCH */,
 				CE42967D207B5525009024B3 /* Controller */,
@@ -370,8 +468,6 @@
 				CE42967F207B55B8009024B3 /* Sources */,
 				CE429683207B55B8009024B3 /* Frameworks */,
 				CE429684207B55B8009024B3 /* Resources */,
-				247A0D76DBABF1AC75BA6EF0 /* [CP] Embed Pods Frameworks */,
-				A8E2897245C3CB354F6E5387 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -390,8 +486,6 @@
 				CE94CD7B207B51920050F910 /* Sources */,
 				CE94CD7C207B51920050F910 /* Frameworks */,
 				CE94CD7D207B51920050F910 /* Resources */,
-				65E3C527CF86CFABBB44D7DF /* [CP] Embed Pods Frameworks */,
-				34F148E0102EC2B7A943DBA2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -410,8 +504,6 @@
 				CE94CD93207B51920050F910 /* Sources */,
 				CE94CD94207B51920050F910 /* Frameworks */,
 				CE94CD95207B51920050F910 /* Resources */,
-				DA7C080E390A3A4B2C1E6AE8 /* [CP] Embed Pods Frameworks */,
-				3E558D75E9C0683671AC8AE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -495,6 +587,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A2134120EB78A90095A250 /* 和风天气状况代码和图标文档.md in Resources */,
 				CE429696207B5DBD009024B3 /* LaunchScreen.storyboard in Resources */,
 				CE429686207B55B8009024B3 /* Assets.xcassets in Resources */,
 				CE429687207B55B8009024B3 /* Main.storyboard in Resources */,
@@ -505,6 +598,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A2134020EB78A90095A250 /* 和风天气状况代码和图标文档.md in Resources */,
 				CE429695207B5DBD009024B3 /* LaunchScreen.storyboard in Resources */,
 				CE94CD8C207B51920050F910 /* Assets.xcassets in Resources */,
 				CE94CD8A207B51920050F910 /* Main.storyboard in Resources */,
@@ -528,79 +622,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		247A0D76DBABF1AC75BA6EF0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorldTest/Pods-HelloWorldTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		34F148E0102EC2B7A943DBA2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3DD5DEDD66F659F0422FC253 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorldTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		3E558D75E9C0683671AC8AE0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		65E3C527CF86CFABBB44D7DF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		96C0B3752EA748CD38F82F47 /* [CP] Check Pods Manifest.lock */ = {
@@ -609,28 +646,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorld-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A8E2897245C3CB354F6E5387 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorldTest/Pods-HelloWorldTest-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CF423F695EE5953AFAB8C5CC /* [CP] Check Pods Manifest.lock */ = {
@@ -639,28 +664,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorldTest-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		DA7C080E390A3A4B2C1E6AE8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -672,14 +685,19 @@
 			files = (
 				CEDC773E207DF39400036186 /* CYLTabBarControllerConfig.m in Sources */,
 				CEDC775B207DF66400036186 /* ModuleRooterViewController.m in Sources */,
+				45A2132520EB084C0095A250 /* JJWIFI.m in Sources */,
 				CEDC7763207DF6BA00036186 /* CYLMineViewController.m in Sources */,
 				CEDC7767207DF6D100036186 /* CYLMessageViewController.m in Sources */,
 				CEDC7739207DB07E00036186 /* NSRunLoopViewController.m in Sources */,
 				CEDC7734207DB03300036186 /* TableRooterViewController.m in Sources */,
+				45A2133520EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m in Sources */,
 				CE429680207B55B8009024B3 /* ViewController.m in Sources */,
 				CE429681207B55B8009024B3 /* main.m in Sources */,
+				45A2133020EB4E060095A250 /* global.m in Sources */,
 				CEDC776B207DF6E700036186 /* CYLHomeViewController.m in Sources */,
 				CE429682207B55B8009024B3 /* AppDelegate.m in Sources */,
+				45A2133D20EB70B70095A250 /* MMHttpDataManager.m in Sources */,
+				45A2133920EB6DEE0095A250 /* MMNetWorking.m in Sources */,
 				CEDC775F207DF69C00036186 /* CYLSameCityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -690,14 +708,19 @@
 			files = (
 				CEDC773D207DF39400036186 /* CYLTabBarControllerConfig.m in Sources */,
 				CEDC775A207DF66400036186 /* ModuleRooterViewController.m in Sources */,
+				45A2132420EB084C0095A250 /* JJWIFI.m in Sources */,
 				CEDC7762207DF6BA00036186 /* CYLMineViewController.m in Sources */,
 				CEDC7766207DF6D100036186 /* CYLMessageViewController.m in Sources */,
 				CEDC7738207DB07E00036186 /* NSRunLoopViewController.m in Sources */,
 				CEDC7733207DB03300036186 /* TableRooterViewController.m in Sources */,
+				45A2133420EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m in Sources */,
 				CE94CD87207B51920050F910 /* ViewController.m in Sources */,
 				CE94CD92207B51920050F910 /* main.m in Sources */,
+				45A2132F20EB4E060095A250 /* global.m in Sources */,
 				CEDC776A207DF6E700036186 /* CYLHomeViewController.m in Sources */,
 				CE94CD84207B51920050F910 /* AppDelegate.m in Sources */,
+				45A2133C20EB70B70095A250 /* MMHttpDataManager.m in Sources */,
+				45A2133820EB6DEE0095A250 /* MMNetWorking.m in Sources */,
 				CEDC775E207DF69C00036186 /* CYLSameCityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -753,6 +776,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImageTest;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2354QPR3HC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HelloWorld/Vendors/HeWeather",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HelloWorld/PCH/PrefixHeaderTest.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -776,6 +803,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImageTest;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2354QPR3HC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HelloWorld/Vendors/HeWeather",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HelloWorld/PCH/PrefixHeaderTest.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_VERSION=2";
 				INFOPLIST_FILE = "HelloWorld copy-Info.plist";
@@ -897,8 +928,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2354QPR3HC;
+				DEVELOPMENT_TEAM = LV63YFDPF9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HelloWorld/Vendors/HeWeather",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HelloWorld/PCH/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -908,8 +944,9 @@
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuaidao.KDSJ.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = cctvzhs.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -920,15 +957,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2354QPR3HC;
+				DEVELOPMENT_TEAM = LV63YFDPF9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HelloWorld/Vendors/HeWeather",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HelloWorld/PCH/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_VERSION=1";
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuaidao.KDSJ.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = cctvzhs.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

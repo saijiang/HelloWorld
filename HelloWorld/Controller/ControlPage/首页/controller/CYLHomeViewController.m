@@ -7,7 +7,8 @@
 //
 
 #import "CYLHomeViewController.h"
-
+#import "JJWIFI.h"
+#import "global.h"
 @interface CYLHomeViewController ()
 
 @end
@@ -19,7 +20,7 @@
     for (int i =0; i < 100; i++) {
         [self.arr addObject:@""];
     }
-   
+    [self currentWIFIName];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -31,7 +32,17 @@
     cell.textLabel.text = @"唉!";
     return cell;
 }
-
+#pragma mark  wifi
+-(void)currentWIFIName{
+   NSString *wifi_Name = [[JJWIFI shareWIFI] currentWifiSSID];
+    NSString *wifi_ip = [[JJWIFI shareWIFI] localWIFIIPAddress];
+    NSLog(@"%@ \n %@",wifi_Name,wifi_ip);
+    [MMHttpDataManager requestCityWeatherParame:@{@"location":@"116.469902,40.019879",@"key":HeWeatherKey,@"lang":@"en",@"unit":@"i"} success:^(NSDictionary *dic) {
+        NSLog(@"%@",dic);
+    } failure:^(NSURLSessionDataTask *task, NSError *error) {
+        NSLog(@"失败");
+    }];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -8,14 +8,21 @@
 
 #import "AppDelegate.h"
 #import "CYLTabBarControllerConfig.h"
+#import <AMapLocationKit/AMapLocationKit.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
 @interface AppDelegate ()
+{
+    AMapLocationManager *_locationManager;
+}
 
 @end
-
 @implementation AppDelegate
-
+@synthesize locationName = _locationName;
+@synthesize locationLatitude = _locationLatitude;
+@synthesize locationLongitude = _locationLongitude;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [self statementAMap];//高德地图
     // 设置主窗口,并设置根控制器
     self.window = [[UIWindow alloc]init];
     self.window.frame = [UIScreen mainScreen].bounds;
@@ -116,6 +123,22 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
+#pragma mark 初始化
+-(void)statementAMap{
+    [AMapServices sharedServices].apiKey = @"e778c61e5e5aca4b8c413722489b1b40";
+    _locationManager = [[AMapLocationManager alloc] init];
+    [_locationManager setDesiredAccuracy:kCLLocationAccuracyHundredMeters];
+    _locationManager.locationTimeout = 2;
+    _locationManager.reGeocodeTimeout = 2;
+    [_locationManager requestLocationWithReGeocode:YES completionBlock:^(CLLocation *location, AMapLocationReGeocode *regeocode, NSError *error) {
+        if (error) {
+            NSLog(@"定位失败");
+        }
+        else{
+            NSLog(@"%@ %@",regeocode.district,regeocode.street);
+            [[global shareGlobLocation] saveLocationName:[NSString stringWithFormat:@"%@ %@",regeocode.district,regeocode.street] and:location.coordinate.latitude and:location.coordinate.longitude];
+        }
+    }];
+}
 
 @end
