@@ -28,8 +28,6 @@
 	<true/>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>一点天气将会获取您的位置</string>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>

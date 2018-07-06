@@ -32,6 +32,7 @@
     cell.textLabel.text = @"唉!";
     return cell;
 }
+
 #pragma mark  wifi
 -(void)currentWIFIName{
    NSString *wifi_Name = [[JJWIFI shareWIFI] currentWifiSSID];
@@ -43,6 +44,42 @@
         NSLog(@"失败");
     }];
 }
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self navaigationTransparent];
+}
+-(void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+    [self navaigationOld];
+}
+#pragma mark 设置导航栏透明
+-(void)navaigationTransparent{
+    UIImage *image = [[UIImage alloc] init];
+    
+    //设置导航栏背景图片为一个空的image，这样就透明了
+    
+    [self.navigationController.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
+    
+    //去掉透明后导航栏下边的黑边
+    
+    [self.navigationController.navigationBar setShadowImage:image];
+    
+    self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
+    
+    self.navigationController.navigationBar.translucent = YES;
+}
+//设置导航栏还原
+-(void)navaigationOld{
+    [self.navigationController.navigationBar setBackgroundImage:nil forBarMetrics:UIBarMetricsDefault];
+    
+    [self.navigationController.navigationBar setShadowImage:nil];
+    
+    self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
+    
+    self.navigationController.navigationBar.translucent = NO;
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

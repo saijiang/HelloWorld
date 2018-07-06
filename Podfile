@@ -10,6 +10,7 @@ target 'HelloWorld' do
  pod 'CYLTabBarController', '~> 1.17.6'
  pod 'AFNetworking', '~> 3.1.0'
  pod 'AMapLocation', '~> 2.6.0'
+# pod 'Charts', '~> 3.1.1'
 
 end
 
@@ -26,4 +27,6 @@ target 'HelloWorldTest' do
 pod 'CYLTabBarController', '~> 1.17.6'
 pod 'AFNetworking', '~> 3.1.0'
 pod 'AMapLocation', '~> 2.6.0'
+#pod 'Charts', '~> 3.1.1'
+
 end

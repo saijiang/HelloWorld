@@ -10,7 +10,7 @@
 		45A2132420EB084C0095A250 /* JJWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2132320EB084C0095A250 /* JJWIFI.m */; };
 		45A2132520EB084C0095A250 /* JJWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2132320EB084C0095A250 /* JJWIFI.m */; };
 		45A2132920EB22020095A250 /* HeWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A2132820EB22020095A250 /* HeWeather.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		45A2132A20EB22020095A250 /* HeWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A2132820EB22020095A250 /* HeWeather.framework */; };
+		45A2132A20EB22020095A250 /* HeWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A2132820EB22020095A250 /* HeWeather.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		45A2132F20EB4E060095A250 /* global.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2132E20EB4E060095A250 /* global.m */; };
 		45A2133020EB4E060095A250 /* global.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2132E20EB4E060095A250 /* global.m */; };
 		45A2133420EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2133320EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m */; };
@@ -21,9 +21,9 @@
 		45A2133D20EB70B70095A250 /* MMHttpDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2133B20EB70B70095A250 /* MMHttpDataManager.m */; };
 		45A2134020EB78A90095A250 /* 和风天气状况代码和图标文档.md in Resources */ = {isa = PBXBuildFile; fileRef = 45A2133F20EB78A90095A250 /* 和风天气状况代码和图标文档.md */; };
 		45A2134120EB78A90095A250 /* 和风天气状况代码和图标文档.md in Resources */ = {isa = PBXBuildFile; fileRef = 45A2133F20EB78A90095A250 /* 和风天气状况代码和图标文档.md */; };
-		939F1075F03101570F0A8D03 /* libPods-HelloWorldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4693E82AF1BE7F56A004F7A9 /* libPods-HelloWorldTests.a */; };
-		B907670A8D25F51C33F00F47 /* libPods-HelloWorld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6E001893822EBE47AB98B5 /* libPods-HelloWorld.a */; };
-		BE7CDD4F4AFB652C92918833 /* libPods-HelloWorldTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6759FEABE153F51B1AB7D1 /* libPods-HelloWorldTest.a */; };
+		5D4ACABAA0D17ADD6AFE98AB /* libPods-HelloWorld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F2CCA6555408B2433CB6F9 /* libPods-HelloWorld.a */; };
+		669BECFE0804678D8DB317D5 /* libPods-HelloWorldTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F7EE3803E259E5AFE603B9 /* libPods-HelloWorldTest.a */; };
+		9B778F4A9FEB097A6311ADA0 /* libPods-HelloWorldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C7C7FD97A020447E3520F1 /* libPods-HelloWorldTests.a */; };
 		CE429680207B55B8009024B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE94CD86207B51920050F910 /* ViewController.m */; };
 		CE429681207B55B8009024B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE94CD91207B51920050F910 /* main.m */; };
 		CE429682207B55B8009024B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE94CD83207B51920050F910 /* AppDelegate.m */; };
@@ -76,7 +76,7 @@
 
 /* Begin PBXFileReference section */
 		277A90680086CFAC7A4238C1 /* Pods-HelloWorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2B6759FEABE153F51B1AB7D1 /* libPods-HelloWorldTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F2CCA6555408B2433CB6F9 /* libPods-HelloWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorld.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE432DF0A35D11FEECE5783 /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
 		45A2132220EB084C0095A250 /* JJWIFI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJWIFI.h; sourceTree = "<group>"; };
 		45A2132320EB084C0095A250 /* JJWIFI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJWIFI.m; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		45A2133B20EB70B70095A250 /* MMHttpDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMHttpDataManager.m; sourceTree = "<group>"; };
 		45A2133E20EB713D0095A250 /* HttpRequestUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpRequestUrl.h; sourceTree = "<group>"; };
 		45A2133F20EB78A90095A250 /* 和风天气状况代码和图标文档.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "和风天气状况代码和图标文档.md"; sourceTree = "<group>"; };
-		4693E82AF1BE7F56A004F7A9 /* libPods-HelloWorldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F7EE3803E259E5AFE603B9 /* libPods-HelloWorldTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91276752634D8ECA06472031 /* Pods-HelloWorldTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTest/Pods-HelloWorldTest.release.xcconfig"; sourceTree = "<group>"; };
 		9D9F146CEB308CB620F51A63 /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
 		BAB8D116692B7C7013686331 /* Pods-HelloWorldTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTest/Pods-HelloWorldTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,8 +133,8 @@
 		CEDC7765207DF6D100036186 /* CYLMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLMessageViewController.m; sourceTree = "<group>"; };
 		CEDC7768207DF6E700036186 /* CYLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLHomeViewController.h; sourceTree = "<group>"; };
 		CEDC7769207DF6E700036186 /* CYLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLHomeViewController.m; sourceTree = "<group>"; };
+		D6C7C7FD97A020447E3520F1 /* libPods-HelloWorldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9355EC562345318F1B27F4F /* Pods-HelloWorldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.release.xcconfig"; sourceTree = "<group>"; };
-		FE6E001893822EBE47AB98B5 /* libPods-HelloWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorld.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45A2132A20EB22020095A250 /* HeWeather.framework in Frameworks */,
-				BE7CDD4F4AFB652C92918833 /* libPods-HelloWorldTest.a in Frameworks */,
+				669BECFE0804678D8DB317D5 /* libPods-HelloWorldTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +153,7 @@
 			files = (
 				CEB8D4CB207C4CFD006F5C83 /* AVFoundation.framework in Frameworks */,
 				45A2132920EB22020095A250 /* HeWeather.framework in Frameworks */,
-				B907670A8D25F51C33F00F47 /* libPods-HelloWorld.a in Frameworks */,
+				5D4ACABAA0D17ADD6AFE98AB /* libPods-HelloWorld.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				939F1075F03101570F0A8D03 /* libPods-HelloWorldTests.a in Frameworks */,
+				9B778F4A9FEB097A6311ADA0 /* libPods-HelloWorldTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +342,9 @@
 			isa = PBXGroup;
 			children = (
 				CEB8D4CA207C4CF3006F5C83 /* AVFoundation.framework */,
-				FE6E001893822EBE47AB98B5 /* libPods-HelloWorld.a */,
-				2B6759FEABE153F51B1AB7D1 /* libPods-HelloWorldTest.a */,
-				4693E82AF1BE7F56A004F7A9 /* libPods-HelloWorldTests.a */,
+				28F2CCA6555408B2433CB6F9 /* libPods-HelloWorld.a */,
+				74F7EE3803E259E5AFE603B9 /* libPods-HelloWorldTest.a */,
+				D6C7C7FD97A020447E3520F1 /* libPods-HelloWorldTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
