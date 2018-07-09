@@ -9,17 +9,27 @@
 #import "CYLHomeViewController.h"
 #import "JJWIFI.h"
 #import "global.h"
+#import "WWWeatherView.h"
+#import "WWeatherModel.h"
 @interface CYLHomeViewController ()
-
+@property(nonatomic,strong) WWWeatherView *WWeatherView;
+@property(nonatomic,strong) WWeatherModel *weatherModel;
 @end
 
 @implementation CYLHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    for (int i =0; i < 100; i++) {
-        [self.arr addObject:@""];
-    }
+    [self.view addSubview:self.WWeatherView];
+     [self.WWeatherView mas_makeConstraints:^(MASConstraintMaker *make) {
+         make.left.mas_equalTo(self.view.mas_left).offset(10);
+         make.right.mas_equalTo(self.view.mas_right).offset(-10);
+         make.top.mas_equalTo(self.view.mas_top).offset(64);
+         make.height.mas_equalTo(150);
+     }];
+    
+    
+    
     [self currentWIFIName];
 }
 
@@ -35,22 +45,43 @@
 
 #pragma mark  wifi
 -(void)currentWIFIName{
-   NSString *wifi_Name = [[JJWIFI shareWIFI] currentWifiSSID];
-    NSString *wifi_ip = [[JJWIFI shareWIFI] localWIFIIPAddress];
-    NSLog(@"%@ \n %@",wifi_Name,wifi_ip);
-    [MMHttpDataManager requestCityWeatherParame:@{@"location":@"116.469902,40.019879",@"key":HeWeatherKey,@"lang":@"en",@"unit":@"i"} success:^(NSDictionary *dic) {
-        NSLog(@"%@",dic);
-    } failure:^(NSURLSessionDataTask *task, NSError *error) {
-        NSLog(@"失败");
-    }];
+//   NSString *wifi_Name = [[JJWIFI shareWIFI] currentWifiSSID];
+//    NSString *wifi_ip = [[JJWIFI shareWIFI] localWIFIIPAddress];
+//    NSLog(@"%@ \n %@",wifi_Name,wifi_ip);
+    [WWLocation initLocation].locationCrrentStation = ^(NSString *location, CGFloat latation, CGFloat longatation) {
+//        NSLog(@"%@\n%lf\n%lf",location,latation,longatation);
+        NSString *locationStation = [NSString stringWithFormat:@"%lf,%lf",latation,longatation];
+     [MMHttpDataManager requestCityWeatherParame:@{@"location":locationStation,@"key":HeWeatherKey,@"lang":@"en",@"unit":@"i"} success:^(NSDictionary *dic) {
+            NSLog(@"%@",dic);
+         self.weatherModel = [[WWeatherModel alloc] init];
+         [self.weatherModel mj_keyValuesWithKeys:dic[@"HeWeather6"]];
+         
+         NSLog(@"数据返回%@",dic[@"HeWeather6"]);
+         
+        } failure:^(NSURLSessionDataTask *task, NSError *error) {
+            NSLog(@"失败");
+        }];
+    };
 }
+
+-(WWWeatherView *)WWeatherView{
+    if(!_WWeatherView){
+        _WWeatherView = [[WWWeatherView alloc] init];
+        _WWeatherView.backgroundColor = ColorWithHex(0xfff3dc, 1);
+    }
+    return _WWeatherView;
+}
+
+
+
+
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self navaigationTransparent];
+//    [self navaigationTransparent];//导航栏透明
 }
 -(void)viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
-    [self navaigationOld];
+//    [self navaigationOld];//复原导航栏
 }
 #pragma mark 设置导航栏透明
 -(void)navaigationTransparent{

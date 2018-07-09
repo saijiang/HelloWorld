@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		452DF0E820F2F6AD003404E4 /* WWLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0E720F2F6AD003404E4 /* WWLocation.m */; };
+		452DF0E920F2F6AD003404E4 /* WWLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0E720F2F6AD003404E4 /* WWLocation.m */; };
+		452DF0EE20F32E47003404E4 /* WWWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0ED20F32E47003404E4 /* WWWeatherView.m */; };
+		452DF0EF20F32E47003404E4 /* WWWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0ED20F32E47003404E4 /* WWWeatherView.m */; };
+		452DF0F420F3579C003404E4 /* WWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0F320F3579C003404E4 /* WWeatherModel.m */; };
+		452DF0F520F3579C003404E4 /* WWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0F320F3579C003404E4 /* WWeatherModel.m */; };
 		45A2132420EB084C0095A250 /* JJWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2132320EB084C0095A250 /* JJWIFI.m */; };
 		45A2132520EB084C0095A250 /* JJWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2132320EB084C0095A250 /* JJWIFI.m */; };
 		45A2132920EB22020095A250 /* HeWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A2132820EB22020095A250 /* HeWeather.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -78,6 +84,12 @@
 		277A90680086CFAC7A4238C1 /* Pods-HelloWorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.debug.xcconfig"; sourceTree = "<group>"; };
 		28F2CCA6555408B2433CB6F9 /* libPods-HelloWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorld.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE432DF0A35D11FEECE5783 /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		452DF0E620F2F6AD003404E4 /* WWLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWLocation.h; sourceTree = "<group>"; };
+		452DF0E720F2F6AD003404E4 /* WWLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWLocation.m; sourceTree = "<group>"; };
+		452DF0EC20F32E47003404E4 /* WWWeatherView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWWeatherView.h; sourceTree = "<group>"; };
+		452DF0ED20F32E47003404E4 /* WWWeatherView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWWeatherView.m; sourceTree = "<group>"; };
+		452DF0F220F3579C003404E4 /* WWeatherModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWeatherModel.h; sourceTree = "<group>"; };
+		452DF0F320F3579C003404E4 /* WWeatherModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWeatherModel.m; sourceTree = "<group>"; };
 		45A2132220EB084C0095A250 /* JJWIFI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJWIFI.h; sourceTree = "<group>"; };
 		45A2132320EB084C0095A250 /* JJWIFI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJWIFI.m; sourceTree = "<group>"; };
 		45A2132820EB22020095A250 /* HeWeather.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HeWeather.framework; sourceTree = "<group>"; };
@@ -188,9 +200,53 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		452DF0E520F2F690003404E4 /* 定位 */ = {
+			isa = PBXGroup;
+			children = (
+				452DF0E620F2F6AD003404E4 /* WWLocation.h */,
+				452DF0E720F2F6AD003404E4 /* WWLocation.m */,
+			);
+			path = "定位";
+			sourceTree = "<group>";
+		};
+		452DF0EA20F32DA5003404E4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				452DF0EB20F32E2A003404E4 /* 天气展示view */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		452DF0EB20F32E2A003404E4 /* 天气展示view */ = {
+			isa = PBXGroup;
+			children = (
+				452DF0EC20F32E47003404E4 /* WWWeatherView.h */,
+				452DF0ED20F32E47003404E4 /* WWWeatherView.m */,
+			);
+			path = "天气展示view";
+			sourceTree = "<group>";
+		};
+		452DF0F020F35767003404E4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				452DF0F120F3577D003404E4 /* 天气 */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		452DF0F120F3577D003404E4 /* 天气 */ = {
+			isa = PBXGroup;
+			children = (
+				452DF0F220F3579C003404E4 /* WWeatherModel.h */,
+				452DF0F320F3579C003404E4 /* WWeatherModel.m */,
+			);
+			path = "天气";
+			sourceTree = "<group>";
+		};
 		45A2132020EB07F20095A250 /* Nsobject */ = {
 			isa = PBXGroup;
 			children = (
+				452DF0E520F2F690003404E4 /* 定位 */,
 				45A2132120EB08160095A250 /* WIFI */,
 			);
 			path = Nsobject;
@@ -416,6 +472,8 @@
 		CEDC7743207DF3FD00036186 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				452DF0F020F35767003404E4 /* model */,
+				452DF0EA20F32DA5003404E4 /* view */,
 				CEDC7744207DF43100036186 /* controller */,
 			);
 			path = "首页";
@@ -685,15 +743,18 @@
 			files = (
 				CEDC773E207DF39400036186 /* CYLTabBarControllerConfig.m in Sources */,
 				CEDC775B207DF66400036186 /* ModuleRooterViewController.m in Sources */,
+				452DF0E920F2F6AD003404E4 /* WWLocation.m in Sources */,
 				45A2132520EB084C0095A250 /* JJWIFI.m in Sources */,
 				CEDC7763207DF6BA00036186 /* CYLMineViewController.m in Sources */,
 				CEDC7767207DF6D100036186 /* CYLMessageViewController.m in Sources */,
 				CEDC7739207DB07E00036186 /* NSRunLoopViewController.m in Sources */,
 				CEDC7734207DB03300036186 /* TableRooterViewController.m in Sources */,
 				45A2133520EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m in Sources */,
+				452DF0EF20F32E47003404E4 /* WWWeatherView.m in Sources */,
 				CE429680207B55B8009024B3 /* ViewController.m in Sources */,
 				CE429681207B55B8009024B3 /* main.m in Sources */,
 				45A2133020EB4E060095A250 /* global.m in Sources */,
+				452DF0F520F3579C003404E4 /* WWeatherModel.m in Sources */,
 				CEDC776B207DF6E700036186 /* CYLHomeViewController.m in Sources */,
 				CE429682207B55B8009024B3 /* AppDelegate.m in Sources */,
 				45A2133D20EB70B70095A250 /* MMHttpDataManager.m in Sources */,
@@ -708,15 +769,18 @@
 			files = (
 				CEDC773D207DF39400036186 /* CYLTabBarControllerConfig.m in Sources */,
 				CEDC775A207DF66400036186 /* ModuleRooterViewController.m in Sources */,
+				452DF0E820F2F6AD003404E4 /* WWLocation.m in Sources */,
 				45A2132420EB084C0095A250 /* JJWIFI.m in Sources */,
 				CEDC7762207DF6BA00036186 /* CYLMineViewController.m in Sources */,
 				CEDC7766207DF6D100036186 /* CYLMessageViewController.m in Sources */,
 				CEDC7738207DB07E00036186 /* NSRunLoopViewController.m in Sources */,
 				CEDC7733207DB03300036186 /* TableRooterViewController.m in Sources */,
 				45A2133420EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m in Sources */,
+				452DF0EE20F32E47003404E4 /* WWWeatherView.m in Sources */,
 				CE94CD87207B51920050F910 /* ViewController.m in Sources */,
 				CE94CD92207B51920050F910 /* main.m in Sources */,
 				45A2132F20EB4E060095A250 /* global.m in Sources */,
+				452DF0F420F3579C003404E4 /* WWeatherModel.m in Sources */,
 				CEDC776A207DF6E700036186 /* CYLHomeViewController.m in Sources */,
 				CE94CD84207B51920050F910 /* AppDelegate.m in Sources */,
 				45A2133C20EB70B70095A250 /* MMHttpDataManager.m in Sources */,

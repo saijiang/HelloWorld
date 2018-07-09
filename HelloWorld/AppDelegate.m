@@ -126,19 +126,8 @@
 #pragma mark 初始化
 -(void)statementAMap{
     [AMapServices sharedServices].apiKey = @"e778c61e5e5aca4b8c413722489b1b40";
-    _locationManager = [[AMapLocationManager alloc] init];
-    [_locationManager setDesiredAccuracy:kCLLocationAccuracyHundredMeters];
-    _locationManager.locationTimeout = 2;
-    _locationManager.reGeocodeTimeout = 2;
-    [_locationManager requestLocationWithReGeocode:YES completionBlock:^(CLLocation *location, AMapLocationReGeocode *regeocode, NSError *error) {
-        if (error) {
-            NSLog(@"定位失败");
-        }
-        else{
-            NSLog(@"%@ %@",regeocode.district,regeocode.street);
-            [[global shareGlobLocation] saveLocationName:[NSString stringWithFormat:@"%@ %@",regeocode.district,regeocode.street] and:location.coordinate.latitude and:location.coordinate.longitude];
-        }
-    }];
+    [[WWLocation initLocation] initalizeLocationStation];
+  
 }
 
 @end
