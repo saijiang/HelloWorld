@@ -54,8 +54,8 @@
          self.weatherModel = [[WWeatherModel alloc] init];
          [self.weatherModel mj_keyValuesWithKeys:dic[@"HeWeather6"][0]];
          
-//         NSLog(@"数据返回%@",dic[@"HeWeather6"]);
-         NSLog(@"数据返回%@",self.weatherModel.status);
+         NSLog(@"数据返回%@",dic[@"HeWeather6"]);
+        
         } failure:^(NSURLSessionDataTask *task, NSError *error) {
             NSLog(@"失败");
         }];

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4516D9CC20F5990200DDB110 /* weatherBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4516D9CB20F5990200DDB110 /* weatherBaseModel.m */; };
+		4516D9CD20F5990200DDB110 /* weatherBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4516D9CB20F5990200DDB110 /* weatherBaseModel.m */; };
+		4516D9D020F5991800DDB110 /* weatherNewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4516D9CF20F5991800DDB110 /* weatherNewModel.m */; };
+		4516D9D120F5991800DDB110 /* weatherNewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4516D9CF20F5991800DDB110 /* weatherNewModel.m */; };
+		4516D9D420F5993100DDB110 /* weatherUpDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4516D9D320F5993100DDB110 /* weatherUpDataModel.m */; };
+		4516D9D520F5993100DDB110 /* weatherUpDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4516D9D320F5993100DDB110 /* weatherUpDataModel.m */; };
 		452DF0E820F2F6AD003404E4 /* WWLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0E720F2F6AD003404E4 /* WWLocation.m */; };
 		452DF0E920F2F6AD003404E4 /* WWLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0E720F2F6AD003404E4 /* WWLocation.m */; };
 		452DF0EE20F32E47003404E4 /* WWWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0ED20F32E47003404E4 /* WWWeatherView.m */; };
@@ -92,6 +98,12 @@
 		277A90680086CFAC7A4238C1 /* Pods-HelloWorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.debug.xcconfig"; sourceTree = "<group>"; };
 		28F2CCA6555408B2433CB6F9 /* libPods-HelloWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorld.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE432DF0A35D11FEECE5783 /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		4516D9CA20F5990200DDB110 /* weatherBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = weatherBaseModel.h; sourceTree = "<group>"; };
+		4516D9CB20F5990200DDB110 /* weatherBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherBaseModel.m; sourceTree = "<group>"; };
+		4516D9CE20F5991800DDB110 /* weatherNewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = weatherNewModel.h; sourceTree = "<group>"; };
+		4516D9CF20F5991800DDB110 /* weatherNewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherNewModel.m; sourceTree = "<group>"; };
+		4516D9D220F5993100DDB110 /* weatherUpDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = weatherUpDataModel.h; sourceTree = "<group>"; };
+		4516D9D320F5993100DDB110 /* weatherUpDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherUpDataModel.m; sourceTree = "<group>"; };
 		452DF0E620F2F6AD003404E4 /* WWLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWLocation.h; sourceTree = "<group>"; };
 		452DF0E720F2F6AD003404E4 /* WWLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWLocation.m; sourceTree = "<group>"; };
 		452DF0EC20F32E47003404E4 /* WWWeatherView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWWeatherView.h; sourceTree = "<group>"; };
@@ -255,6 +267,12 @@
 			children = (
 				452DF0F220F3579C003404E4 /* WWeatherModel.h */,
 				452DF0F320F3579C003404E4 /* WWeatherModel.m */,
+				4516D9CA20F5990200DDB110 /* weatherBaseModel.h */,
+				4516D9CB20F5990200DDB110 /* weatherBaseModel.m */,
+				4516D9CE20F5991800DDB110 /* weatherNewModel.h */,
+				4516D9CF20F5991800DDB110 /* weatherNewModel.m */,
+				4516D9D220F5993100DDB110 /* weatherUpDataModel.h */,
+				4516D9D320F5993100DDB110 /* weatherUpDataModel.m */,
 			);
 			path = "天气";
 			sourceTree = "<group>";
@@ -810,15 +828,18 @@
 				457927AD20F480DD00C37792 /* WWSaveManageKey.m in Sources */,
 				CEDC775B207DF66400036186 /* ModuleRooterViewController.m in Sources */,
 				452DF0E920F2F6AD003404E4 /* WWLocation.m in Sources */,
+				4516D9D520F5993100DDB110 /* weatherUpDataModel.m in Sources */,
 				45A2132520EB084C0095A250 /* JJWIFI.m in Sources */,
 				CEDC7763207DF6BA00036186 /* CYLMineViewController.m in Sources */,
 				CEDC7767207DF6D100036186 /* CYLMessageViewController.m in Sources */,
 				CEDC7739207DB07E00036186 /* NSRunLoopViewController.m in Sources */,
+				4516D9CD20F5990200DDB110 /* weatherBaseModel.m in Sources */,
 				CEDC7734207DB03300036186 /* TableRooterViewController.m in Sources */,
 				45A2133520EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m in Sources */,
 				452DF0EF20F32E47003404E4 /* WWWeatherView.m in Sources */,
 				457927A320F4616800C37792 /* WWUserAccessManager.m in Sources */,
 				CE429680207B55B8009024B3 /* ViewController.m in Sources */,
+				4516D9D120F5991800DDB110 /* weatherNewModel.m in Sources */,
 				CE429681207B55B8009024B3 /* main.m in Sources */,
 				45A2133020EB4E060095A250 /* global.m in Sources */,
 				457927A820F47ACB00C37792 /* WWLoginViewController.m in Sources */,
@@ -840,15 +861,18 @@
 				457927AC20F480DD00C37792 /* WWSaveManageKey.m in Sources */,
 				CEDC775A207DF66400036186 /* ModuleRooterViewController.m in Sources */,
 				452DF0E820F2F6AD003404E4 /* WWLocation.m in Sources */,
+				4516D9D420F5993100DDB110 /* weatherUpDataModel.m in Sources */,
 				45A2132420EB084C0095A250 /* JJWIFI.m in Sources */,
 				CEDC7762207DF6BA00036186 /* CYLMineViewController.m in Sources */,
 				CEDC7766207DF6D100036186 /* CYLMessageViewController.m in Sources */,
 				CEDC7738207DB07E00036186 /* NSRunLoopViewController.m in Sources */,
+				4516D9CC20F5990200DDB110 /* weatherBaseModel.m in Sources */,
 				CEDC7733207DB03300036186 /* TableRooterViewController.m in Sources */,
 				45A2133420EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m in Sources */,
 				452DF0EE20F32E47003404E4 /* WWWeatherView.m in Sources */,
 				457927A220F4616800C37792 /* WWUserAccessManager.m in Sources */,
 				CE94CD87207B51920050F910 /* ViewController.m in Sources */,
+				4516D9D020F5991800DDB110 /* weatherNewModel.m in Sources */,
 				CE94CD92207B51920050F910 /* main.m in Sources */,
 				45A2132F20EB4E060095A250 /* global.m in Sources */,
 				457927A720F47ACB00C37792 /* WWLoginViewController.m in Sources */,

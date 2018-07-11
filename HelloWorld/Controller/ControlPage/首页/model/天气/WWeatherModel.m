@@ -9,7 +9,7 @@
 #import "WWeatherModel.h"
 
 @implementation WWeatherModel
-+(NSDictionary *)mj_objectClassInArray{
-    return @{@"HeWeather6":@""};
-}
+//+(NSDictionary *)mj_objectClassInArray{
+//    return @{@"HeWeather6":@""};
+//}
 @end
