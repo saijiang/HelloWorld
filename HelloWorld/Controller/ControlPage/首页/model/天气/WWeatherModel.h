@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "weatherNewModel.h"
+#import "weatherBaseModel.h"
+#import "weatherUpDataModel.h"
 @interface WWeatherModel : NSObject
-//@property(nonatomic,strong) NSMutableArray *HeWeather6;
-//@property(nonatomic,copy) NSDictionary *basic;
-//@property(nonatomic,copy) NSDictionary *now;
-//@property(nonatomic,copy) NSString *status;
-//@property(nonatomic,copy) NSDictionary *update;
+@property(nonatomic,strong) weatherNewModel *now;
+@property(nonatomic,strong) weatherBaseModel *basic;
+@property(nonatomic,strong) weatherUpDataModel *update;
+@property(nonatomic,copy) NSString *status;
+
 @end
