@@ -29,7 +29,9 @@
      }];
     
     
-    
+    [WWUserAccessManager userNextStepJudgeAccessLonginHandle:nil normalHandle:^{
+        NSLog(@"页面跳转");
+    }];
     [self currentWIFIName];
 }
 
@@ -45,19 +47,15 @@
 
 #pragma mark  wifi
 -(void)currentWIFIName{
-//   NSString *wifi_Name = [[JJWIFI shareWIFI] currentWifiSSID];
-//    NSString *wifi_ip = [[JJWIFI shareWIFI] localWIFIIPAddress];
-//    NSLog(@"%@ \n %@",wifi_Name,wifi_ip);
     [WWLocation initLocation].locationCrrentStation = ^(NSString *location, CGFloat latation, CGFloat longatation) {
-//        NSLog(@"%@\n%lf\n%lf",location,latation,longatation);
         NSString *locationStation = [NSString stringWithFormat:@"%lf,%lf",latation,longatation];
      [MMHttpDataManager requestCityWeatherParame:@{@"location":locationStation,@"key":HeWeatherKey,@"lang":@"en",@"unit":@"i"} success:^(NSDictionary *dic) {
             NSLog(@"%@",dic);
          self.weatherModel = [[WWeatherModel alloc] init];
-         [self.weatherModel mj_keyValuesWithKeys:dic[@"HeWeather6"]];
+         [self.weatherModel mj_keyValuesWithKeys:dic[@"HeWeather6"][0]];
          
-         NSLog(@"数据返回%@",dic[@"HeWeather6"]);
-         
+//         NSLog(@"数据返回%@",dic[@"HeWeather6"]);
+         NSLog(@"数据返回%@",self.weatherModel.status);
         } failure:^(NSURLSessionDataTask *task, NSError *error) {
             NSLog(@"失败");
         }];

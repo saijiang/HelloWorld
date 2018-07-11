@@ -13,6 +13,14 @@
 		452DF0EF20F32E47003404E4 /* WWWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0ED20F32E47003404E4 /* WWWeatherView.m */; };
 		452DF0F420F3579C003404E4 /* WWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0F320F3579C003404E4 /* WWeatherModel.m */; };
 		452DF0F520F3579C003404E4 /* WWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0F320F3579C003404E4 /* WWeatherModel.m */; };
+		457927A220F4616800C37792 /* WWUserAccessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 457927A120F4616800C37792 /* WWUserAccessManager.m */; };
+		457927A320F4616800C37792 /* WWUserAccessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 457927A120F4616800C37792 /* WWUserAccessManager.m */; };
+		457927A720F47ACB00C37792 /* WWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457927A620F47ACB00C37792 /* WWLoginViewController.m */; };
+		457927A820F47ACB00C37792 /* WWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457927A620F47ACB00C37792 /* WWLoginViewController.m */; };
+		457927AC20F480DD00C37792 /* WWSaveManageKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 457927AB20F480DD00C37792 /* WWSaveManageKey.m */; };
+		457927AD20F480DD00C37792 /* WWSaveManageKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 457927AB20F480DD00C37792 /* WWSaveManageKey.m */; };
+		457927B120F4900400C37792 /* UnityPBClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 457927B020F4900400C37792 /* UnityPBClass.m */; };
+		457927B220F4900400C37792 /* UnityPBClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 457927B020F4900400C37792 /* UnityPBClass.m */; };
 		45A2132420EB084C0095A250 /* JJWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2132320EB084C0095A250 /* JJWIFI.m */; };
 		45A2132520EB084C0095A250 /* JJWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2132320EB084C0095A250 /* JJWIFI.m */; };
 		45A2132920EB22020095A250 /* HeWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A2132820EB22020095A250 /* HeWeather.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -90,6 +98,14 @@
 		452DF0ED20F32E47003404E4 /* WWWeatherView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWWeatherView.m; sourceTree = "<group>"; };
 		452DF0F220F3579C003404E4 /* WWeatherModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWeatherModel.h; sourceTree = "<group>"; };
 		452DF0F320F3579C003404E4 /* WWeatherModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWeatherModel.m; sourceTree = "<group>"; };
+		457927A020F4616800C37792 /* WWUserAccessManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWUserAccessManager.h; sourceTree = "<group>"; };
+		457927A120F4616800C37792 /* WWUserAccessManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWUserAccessManager.m; sourceTree = "<group>"; };
+		457927A520F47ACB00C37792 /* WWLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWLoginViewController.h; sourceTree = "<group>"; };
+		457927A620F47ACB00C37792 /* WWLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWLoginViewController.m; sourceTree = "<group>"; };
+		457927AA20F480DD00C37792 /* WWSaveManageKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWSaveManageKey.h; sourceTree = "<group>"; };
+		457927AB20F480DD00C37792 /* WWSaveManageKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWSaveManageKey.m; sourceTree = "<group>"; };
+		457927AF20F4900400C37792 /* UnityPBClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnityPBClass.h; sourceTree = "<group>"; };
+		457927B020F4900400C37792 /* UnityPBClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnityPBClass.m; sourceTree = "<group>"; };
 		45A2132220EB084C0095A250 /* JJWIFI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJWIFI.h; sourceTree = "<group>"; };
 		45A2132320EB084C0095A250 /* JJWIFI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJWIFI.m; sourceTree = "<group>"; };
 		45A2132820EB22020095A250 /* HeWeather.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HeWeather.framework; sourceTree = "<group>"; };
@@ -243,6 +259,52 @@
 			path = "天气";
 			sourceTree = "<group>";
 		};
+		4579279E20F4612900C37792 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				457927AE20F48FD900C37792 /* 公共类初始化 */,
+				457927A920F480BE00C37792 /* 存储标识 */,
+				4579279F20F4614700C37792 /* 页面跳转判断是否登陆 */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		4579279F20F4614700C37792 /* 页面跳转判断是否登陆 */ = {
+			isa = PBXGroup;
+			children = (
+				457927A020F4616800C37792 /* WWUserAccessManager.h */,
+				457927A120F4616800C37792 /* WWUserAccessManager.m */,
+			);
+			path = "页面跳转判断是否登陆";
+			sourceTree = "<group>";
+		};
+		457927A420F47AAD00C37792 /* 登陆注册 */ = {
+			isa = PBXGroup;
+			children = (
+				457927A520F47ACB00C37792 /* WWLoginViewController.h */,
+				457927A620F47ACB00C37792 /* WWLoginViewController.m */,
+			);
+			path = "登陆注册";
+			sourceTree = "<group>";
+		};
+		457927A920F480BE00C37792 /* 存储标识 */ = {
+			isa = PBXGroup;
+			children = (
+				457927AA20F480DD00C37792 /* WWSaveManageKey.h */,
+				457927AB20F480DD00C37792 /* WWSaveManageKey.m */,
+			);
+			path = "存储标识";
+			sourceTree = "<group>";
+		};
+		457927AE20F48FD900C37792 /* 公共类初始化 */ = {
+			isa = PBXGroup;
+			children = (
+				457927AF20F4900400C37792 /* UnityPBClass.h */,
+				457927B020F4900400C37792 /* UnityPBClass.m */,
+			);
+			path = "公共类初始化";
+			sourceTree = "<group>";
+		};
 		45A2132020EB07F20095A250 /* Nsobject */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +342,7 @@
 		45A2132B20EB4DBF0095A250 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				4579279E20F4612900C37792 /* Class */,
 				45A2133F20EB78A90095A250 /* 和风天气状况代码和图标文档.md */,
 				45A2133120EB6C100095A250 /* Http */,
 				45A2132C20EB4DEF0095A250 /* globalFile */,
@@ -437,6 +500,7 @@
 		CEDC773F207DF3FD00036186 /* ControlPage */ = {
 			isa = PBXGroup;
 			children = (
+				457927A420F47AAD00C37792 /* 登陆注册 */,
 				CEDC7740207DF3FD00036186 /* 同城 */,
 				CEDC7741207DF3FD00036186 /* 我的 */,
 				CEDC7742207DF3FD00036186 /* 消息 */,
@@ -741,7 +805,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				457927B220F4900400C37792 /* UnityPBClass.m in Sources */,
 				CEDC773E207DF39400036186 /* CYLTabBarControllerConfig.m in Sources */,
+				457927AD20F480DD00C37792 /* WWSaveManageKey.m in Sources */,
 				CEDC775B207DF66400036186 /* ModuleRooterViewController.m in Sources */,
 				452DF0E920F2F6AD003404E4 /* WWLocation.m in Sources */,
 				45A2132520EB084C0095A250 /* JJWIFI.m in Sources */,
@@ -751,9 +817,11 @@
 				CEDC7734207DB03300036186 /* TableRooterViewController.m in Sources */,
 				45A2133520EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m in Sources */,
 				452DF0EF20F32E47003404E4 /* WWWeatherView.m in Sources */,
+				457927A320F4616800C37792 /* WWUserAccessManager.m in Sources */,
 				CE429680207B55B8009024B3 /* ViewController.m in Sources */,
 				CE429681207B55B8009024B3 /* main.m in Sources */,
 				45A2133020EB4E060095A250 /* global.m in Sources */,
+				457927A820F47ACB00C37792 /* WWLoginViewController.m in Sources */,
 				452DF0F520F3579C003404E4 /* WWeatherModel.m in Sources */,
 				CEDC776B207DF6E700036186 /* CYLHomeViewController.m in Sources */,
 				CE429682207B55B8009024B3 /* AppDelegate.m in Sources */,
@@ -767,7 +835,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				457927B120F4900400C37792 /* UnityPBClass.m in Sources */,
 				CEDC773D207DF39400036186 /* CYLTabBarControllerConfig.m in Sources */,
+				457927AC20F480DD00C37792 /* WWSaveManageKey.m in Sources */,
 				CEDC775A207DF66400036186 /* ModuleRooterViewController.m in Sources */,
 				452DF0E820F2F6AD003404E4 /* WWLocation.m in Sources */,
 				45A2132420EB084C0095A250 /* JJWIFI.m in Sources */,
@@ -777,9 +847,11 @@
 				CEDC7733207DB03300036186 /* TableRooterViewController.m in Sources */,
 				45A2133420EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m in Sources */,
 				452DF0EE20F32E47003404E4 /* WWWeatherView.m in Sources */,
+				457927A220F4616800C37792 /* WWUserAccessManager.m in Sources */,
 				CE94CD87207B51920050F910 /* ViewController.m in Sources */,
 				CE94CD92207B51920050F910 /* main.m in Sources */,
 				45A2132F20EB4E060095A250 /* global.m in Sources */,
+				457927A720F47ACB00C37792 /* WWLoginViewController.m in Sources */,
 				452DF0F420F3579C003404E4 /* WWeatherModel.m in Sources */,
 				CEDC776A207DF6E700036186 /* CYLHomeViewController.m in Sources */,
 				CE94CD84207B51920050F910 /* AppDelegate.m in Sources */,

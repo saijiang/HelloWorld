@@ -10,6 +10,6 @@
 
 @implementation WWeatherModel
 +(NSDictionary *)mj_objectClassInArray{
-    return @{};
+    return @{@"HeWeather6":@""};
 }
 @end

@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface WWeatherModel : NSObject
-//@property(nonatomic,copy) NSArray *HeWeather6;
-@property(nonatomic,copy) NSDictionary *basic;
-@property(nonatomic,copy) NSDictionary *now;
-@property(nonatomic,copy) NSString *status;
-@property(nonatomic,copy) NSDictionary *update;
+@property(nonatomic,strong) NSMutableArray *HeWeather6;
+//@property(nonatomic,copy) NSDictionary *basic;
+//@property(nonatomic,copy) NSDictionary *now;
+//@property(nonatomic,copy) NSString *status;
+//@property(nonatomic,copy) NSDictionary *update;
 @end
