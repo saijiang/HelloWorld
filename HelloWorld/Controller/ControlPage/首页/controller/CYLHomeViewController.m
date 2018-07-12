@@ -21,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view addSubview:self.WWeatherView];
+    [self.WWeatherView getWeatherStation];
      [self.WWeatherView mas_makeConstraints:^(MASConstraintMaker *make) {
          make.left.mas_equalTo(self.view.mas_left).offset(10);
          make.right.mas_equalTo(self.view.mas_right).offset(-10);
@@ -28,12 +29,13 @@
          make.height.mas_equalTo(150);
      }];
     
-    
-    [WWUserAccessManager userNextStepJudgeAccessLonginHandle:nil normalHandle:^{
-        NSLog(@"页面跳转");
-    }];
-    [self currentWIFIName];
+//    [WWUserAccessManager userNextStepJudgeAccessLonginHandle:nil normalHandle:^{
+//        NSLog(@"页面跳转");
+//    }];
+//    [self currentWIFIName];
 }
+
+
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *cellID = @"CELL";
@@ -53,8 +55,7 @@
             NSLog(@"%@",dic);
          self.weatherModel = [[WWeatherModel alloc] init];
          [self.weatherModel mj_keyValuesWithKeys:dic[@"HeWeather6"][0]];
-         
-         NSLog(@"数据返回%@ \n %@",dic[@"HeWeather6"],self.weatherModel.now.fl);
+ 
         
         } failure:^(NSURLSessionDataTask *task, NSError *error) {
             NSLog(@"失败");
@@ -80,6 +81,8 @@
 -(void)viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
 //    [self navaigationOld];//复原导航栏
+//    [self.WWeatherView getWeatherStation];
+ 
 }
 #pragma mark 设置导航栏透明
 -(void)navaigationTransparent{

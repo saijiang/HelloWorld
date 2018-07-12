@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface WWWeatherView : UIView
-
+-(void)getWeatherStation;
 @end

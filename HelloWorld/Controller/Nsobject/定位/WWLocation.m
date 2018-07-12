@@ -32,15 +32,16 @@ static WWLocation *managerLocation;
     [_locationManager setDesiredAccuracy:kCLLocationAccuracyHundredMeters];
     _locationManager.locationTimeout = 2;
     _locationManager.reGeocodeTimeout = 2;
+
     [_locationManager requestLocationWithReGeocode:YES completionBlock:^(CLLocation *location, AMapLocationReGeocode *regeocode, NSError *error) {
         if (error) {
 //            NSLog(@"定位失败");
             self.locationCrrentStation(@"定位失败！", 0, 0);
         }
         else{
-
+            
             self.locationCrrentStation([NSString stringWithFormat:@"%@ %@",regeocode.district,regeocode.street], location.coordinate.latitude, location.coordinate.longitude);
-//            [[global shareGlobLocation] saveLocationName:[NSString stringWithFormat:@"%@ %@",regeocode.district,regeocode.street] and:location.coordinate.latitude and:location.coordinate.longitude];
+
         }
     }];
 }

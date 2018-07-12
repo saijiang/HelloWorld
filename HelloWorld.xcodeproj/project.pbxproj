@@ -27,6 +27,8 @@
 		457927AD20F480DD00C37792 /* WWSaveManageKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 457927AB20F480DD00C37792 /* WWSaveManageKey.m */; };
 		457927B120F4900400C37792 /* UnityPBClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 457927B020F4900400C37792 /* UnityPBClass.m */; };
 		457927B220F4900400C37792 /* UnityPBClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 457927B020F4900400C37792 /* UnityPBClass.m */; };
+		457C446E20F72F75001B236A /* NSString+string.m in Sources */ = {isa = PBXBuildFile; fileRef = 457C446D20F72F75001B236A /* NSString+string.m */; };
+		457C446F20F72F75001B236A /* NSString+string.m in Sources */ = {isa = PBXBuildFile; fileRef = 457C446D20F72F75001B236A /* NSString+string.m */; };
 		45A2132420EB084C0095A250 /* JJWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2132320EB084C0095A250 /* JJWIFI.m */; };
 		45A2132520EB084C0095A250 /* JJWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2132320EB084C0095A250 /* JJWIFI.m */; };
 		45A2132920EB22020095A250 /* HeWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A2132820EB22020095A250 /* HeWeather.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -118,6 +120,8 @@
 		457927AB20F480DD00C37792 /* WWSaveManageKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWSaveManageKey.m; sourceTree = "<group>"; };
 		457927AF20F4900400C37792 /* UnityPBClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnityPBClass.h; sourceTree = "<group>"; };
 		457927B020F4900400C37792 /* UnityPBClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnityPBClass.m; sourceTree = "<group>"; };
+		457C446C20F72F75001B236A /* NSString+string.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+string.h"; sourceTree = "<group>"; };
+		457C446D20F72F75001B236A /* NSString+string.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+string.m"; sourceTree = "<group>"; };
 		45A2132220EB084C0095A250 /* JJWIFI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJWIFI.h; sourceTree = "<group>"; };
 		45A2132320EB084C0095A250 /* JJWIFI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJWIFI.m; sourceTree = "<group>"; };
 		45A2132820EB22020095A250 /* HeWeather.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HeWeather.framework; sourceTree = "<group>"; };
@@ -280,6 +284,7 @@
 		4579279E20F4612900C37792 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				457C446B20F72F35001B236A /* 类别类 */,
 				457927AE20F48FD900C37792 /* 公共类初始化 */,
 				457927A920F480BE00C37792 /* 存储标识 */,
 				4579279F20F4614700C37792 /* 页面跳转判断是否登陆 */,
@@ -321,6 +326,15 @@
 				457927B020F4900400C37792 /* UnityPBClass.m */,
 			);
 			path = "公共类初始化";
+			sourceTree = "<group>";
+		};
+		457C446B20F72F35001B236A /* 类别类 */ = {
+			isa = PBXGroup;
+			children = (
+				457C446C20F72F75001B236A /* NSString+string.h */,
+				457C446D20F72F75001B236A /* NSString+string.m */,
+			);
+			path = "类别类";
 			sourceTree = "<group>";
 		};
 		45A2132020EB07F20095A250 /* Nsobject */ = {
@@ -832,6 +846,7 @@
 				45A2132520EB084C0095A250 /* JJWIFI.m in Sources */,
 				CEDC7763207DF6BA00036186 /* CYLMineViewController.m in Sources */,
 				CEDC7767207DF6D100036186 /* CYLMessageViewController.m in Sources */,
+				457C446F20F72F75001B236A /* NSString+string.m in Sources */,
 				CEDC7739207DB07E00036186 /* NSRunLoopViewController.m in Sources */,
 				4516D9CD20F5990200DDB110 /* weatherBaseModel.m in Sources */,
 				CEDC7734207DB03300036186 /* TableRooterViewController.m in Sources */,
@@ -865,6 +880,7 @@
 				45A2132420EB084C0095A250 /* JJWIFI.m in Sources */,
 				CEDC7762207DF6BA00036186 /* CYLMineViewController.m in Sources */,
 				CEDC7766207DF6D100036186 /* CYLMessageViewController.m in Sources */,
+				457C446E20F72F75001B236A /* NSString+string.m in Sources */,
 				CEDC7738207DB07E00036186 /* NSRunLoopViewController.m in Sources */,
 				4516D9CC20F5990200DDB110 /* weatherBaseModel.m in Sources */,
 				CEDC7733207DB03300036186 /* TableRooterViewController.m in Sources */,
