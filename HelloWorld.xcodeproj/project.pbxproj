@@ -13,6 +13,8 @@
 		4516D9D120F5991800DDB110 /* weatherNewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4516D9CF20F5991800DDB110 /* weatherNewModel.m */; };
 		4516D9D420F5993100DDB110 /* weatherUpDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4516D9D320F5993100DDB110 /* weatherUpDataModel.m */; };
 		4516D9D520F5993100DDB110 /* weatherUpDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4516D9D320F5993100DDB110 /* weatherUpDataModel.m */; };
+		45231EC820F84F84001DA2E0 /* WWRegiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45231EC720F84F84001DA2E0 /* WWRegiseViewController.m */; };
+		45231EC920F84F84001DA2E0 /* WWRegiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45231EC720F84F84001DA2E0 /* WWRegiseViewController.m */; };
 		452DF0E820F2F6AD003404E4 /* WWLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0E720F2F6AD003404E4 /* WWLocation.m */; };
 		452DF0E920F2F6AD003404E4 /* WWLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0E720F2F6AD003404E4 /* WWLocation.m */; };
 		452DF0EE20F32E47003404E4 /* WWWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0ED20F32E47003404E4 /* WWWeatherView.m */; };
@@ -106,6 +108,8 @@
 		4516D9CF20F5991800DDB110 /* weatherNewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherNewModel.m; sourceTree = "<group>"; };
 		4516D9D220F5993100DDB110 /* weatherUpDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = weatherUpDataModel.h; sourceTree = "<group>"; };
 		4516D9D320F5993100DDB110 /* weatherUpDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherUpDataModel.m; sourceTree = "<group>"; };
+		45231EC620F84F84001DA2E0 /* WWRegiseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWRegiseViewController.h; sourceTree = "<group>"; };
+		45231EC720F84F84001DA2E0 /* WWRegiseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWRegiseViewController.m; sourceTree = "<group>"; };
 		452DF0E620F2F6AD003404E4 /* WWLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWLocation.h; sourceTree = "<group>"; };
 		452DF0E720F2F6AD003404E4 /* WWLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWLocation.m; sourceTree = "<group>"; };
 		452DF0EC20F32E47003404E4 /* WWWeatherView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWWeatherView.h; sourceTree = "<group>"; };
@@ -306,6 +310,8 @@
 			children = (
 				457927A520F47ACB00C37792 /* WWLoginViewController.h */,
 				457927A620F47ACB00C37792 /* WWLoginViewController.m */,
+				45231EC620F84F84001DA2E0 /* WWRegiseViewController.h */,
+				45231EC720F84F84001DA2E0 /* WWRegiseViewController.m */,
 			);
 			path = "登陆注册";
 			sourceTree = "<group>";
@@ -864,6 +870,7 @@
 				45A2133D20EB70B70095A250 /* MMHttpDataManager.m in Sources */,
 				45A2133920EB6DEE0095A250 /* MMNetWorking.m in Sources */,
 				CEDC775F207DF69C00036186 /* CYLSameCityViewController.m in Sources */,
+				45231EC920F84F84001DA2E0 /* WWRegiseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -898,6 +905,7 @@
 				45A2133C20EB70B70095A250 /* MMHttpDataManager.m in Sources */,
 				45A2133820EB6DEE0095A250 /* MMNetWorking.m in Sources */,
 				CEDC775E207DF69C00036186 /* CYLSameCityViewController.m in Sources */,
+				45231EC820F84F84001DA2E0 /* WWRegiseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

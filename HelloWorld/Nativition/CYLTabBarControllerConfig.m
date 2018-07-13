@@ -18,6 +18,11 @@ static CGFloat const CYLTabBarControllerHeight = 40.f;
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     if (self.viewControllers.count > 0) {
         viewController.hidesBottomBarWhenPushed = YES;
+        UIButton *button = [UnityPBClass initButton:CGRectMake(0, 0, 40, 40) and:@"dismissBack"];
+        
+         UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:button];
+        //这里可以设置导航栏的左右按钮 统一管理方法
+        viewController.navigationItem.leftBarButtonItem = item;
     }
     [super pushViewController:viewController animated:animated];
 }

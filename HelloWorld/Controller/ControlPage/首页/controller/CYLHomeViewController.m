@@ -29,9 +29,9 @@
          make.height.mas_equalTo(150);
      }];
     
-//    [WWUserAccessManager userNextStepJudgeAccessLonginHandle:nil normalHandle:^{
-//        NSLog(@"页面跳转");
-//    }];
+    [WWUserAccessManager userNextStepJudgeAccessLonginHandle:nil normalHandle:^{
+        NSLog(@"页面跳转");
+    }];
 //    [self currentWIFIName];
 }
 

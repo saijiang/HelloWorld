@@ -10,5 +10,7 @@
 
 @interface UnityPBClass : NSObject
 +(UIButton *)initButton:(CGRect)rect and:(NSString *)image;
++(UIButton *)initCharacterButton:(CGRect)rect and:(NSString *)name and:(CGFloat)fount and:(CGFloat)rount and:(NSString *)color;
 +(UILabel *)initLabel:(CGRect)rect and:(CGFloat)fount and:(NSString *)str and:(NSTextAlignment)nstxtAli and:(NSString *)color;
++(UITextField *)initLeftImageTextFiled:(NSString *)plachorStr and:(CGFloat)fount and:(CGRect)rect and:(NSString *)imageUrl and:(BOOL)issecureText;
 @end
