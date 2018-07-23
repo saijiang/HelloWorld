@@ -33,6 +33,7 @@
         NSLog(@"页面跳转");
     }];
 //    [self currentWIFIName];
+
 }
 
 
@@ -46,6 +47,9 @@
     cell.textLabel.text = @"唉!";
     return cell;
 }
+
+
+
 
 #pragma mark  wifi
 -(void)currentWIFIName{

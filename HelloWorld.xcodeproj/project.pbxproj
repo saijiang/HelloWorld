@@ -45,6 +45,8 @@
 		45A2133D20EB70B70095A250 /* MMHttpDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2133B20EB70B70095A250 /* MMHttpDataManager.m */; };
 		45A2134020EB78A90095A250 /* 和风天气状况代码和图标文档.md in Resources */ = {isa = PBXBuildFile; fileRef = 45A2133F20EB78A90095A250 /* 和风天气状况代码和图标文档.md */; };
 		45A2134120EB78A90095A250 /* 和风天气状况代码和图标文档.md in Resources */ = {isa = PBXBuildFile; fileRef = 45A2133F20EB78A90095A250 /* 和风天气状况代码和图标文档.md */; };
+		45D3E5B22105AB32003CC903 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D3E5B12105AB32003CC903 /* UIImage+image.m */; };
+		45D3E5B32105AB32003CC903 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D3E5B12105AB32003CC903 /* UIImage+image.m */; };
 		5D4ACABAA0D17ADD6AFE98AB /* libPods-HelloWorld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F2CCA6555408B2433CB6F9 /* libPods-HelloWorld.a */; };
 		669BECFE0804678D8DB317D5 /* libPods-HelloWorldTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F7EE3803E259E5AFE603B9 /* libPods-HelloWorldTest.a */; };
 		9B778F4A9FEB097A6311ADA0 /* libPods-HelloWorldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C7C7FD97A020447E3520F1 /* libPods-HelloWorldTests.a */; };
@@ -139,6 +141,8 @@
 		45A2133B20EB70B70095A250 /* MMHttpDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMHttpDataManager.m; sourceTree = "<group>"; };
 		45A2133E20EB713D0095A250 /* HttpRequestUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpRequestUrl.h; sourceTree = "<group>"; };
 		45A2133F20EB78A90095A250 /* 和风天气状况代码和图标文档.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "和风天气状况代码和图标文档.md"; sourceTree = "<group>"; };
+		45D3E5B02105AB32003CC903 /* UIImage+image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		45D3E5B12105AB32003CC903 /* UIImage+image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
 		74F7EE3803E259E5AFE603B9 /* libPods-HelloWorldTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91276752634D8ECA06472031 /* Pods-HelloWorldTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTest/Pods-HelloWorldTest.release.xcconfig"; sourceTree = "<group>"; };
 		9D9F146CEB308CB620F51A63 /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
@@ -339,6 +343,8 @@
 			children = (
 				457C446C20F72F75001B236A /* NSString+string.h */,
 				457C446D20F72F75001B236A /* NSString+string.m */,
+				45D3E5B02105AB32003CC903 /* UIImage+image.h */,
+				45D3E5B12105AB32003CC903 /* UIImage+image.m */,
 			);
 			path = "类别类";
 			sourceTree = "<group>";
@@ -870,6 +876,7 @@
 				45A2133D20EB70B70095A250 /* MMHttpDataManager.m in Sources */,
 				45A2133920EB6DEE0095A250 /* MMNetWorking.m in Sources */,
 				CEDC775F207DF69C00036186 /* CYLSameCityViewController.m in Sources */,
+				45D3E5B32105AB32003CC903 /* UIImage+image.m in Sources */,
 				45231EC920F84F84001DA2E0 /* WWRegiseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -905,6 +912,7 @@
 				45A2133C20EB70B70095A250 /* MMHttpDataManager.m in Sources */,
 				45A2133820EB6DEE0095A250 /* MMNetWorking.m in Sources */,
 				CEDC775E207DF69C00036186 /* CYLSameCityViewController.m in Sources */,
+				45D3E5B22105AB32003CC903 /* UIImage+image.m in Sources */,
 				45231EC820F84F84001DA2E0 /* WWRegiseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
