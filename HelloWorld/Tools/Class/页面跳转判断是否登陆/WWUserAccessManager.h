@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface WWUserAccessManager : NSObject
+
 +(void) userNextStepJudgeAccessLonginHandle:(void(^)(void))loginHandle normalHandle:(void(^)(void))normalHandle;
 @end
