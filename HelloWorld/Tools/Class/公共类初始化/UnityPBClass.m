@@ -25,9 +25,11 @@ static UnityPBClass *unityObject = nil;
 }
 #pragma mark button
 //设置图片按钮
-+(UIButton *)initButton:(CGRect)rect and:(NSString *)image{
++(UIButton *)initButton:(CGRect)rect and:(NSString *)image ImageEdgeInsets:(UIEdgeInsets)rectEdge{
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button setImage:[UIImage imageNamed:image] forState:UIControlStateNormal];
+//    [button setImageEdgeInsets:UIEdgeInsetsMake(0, 0, 0, 20)];
+    [button setImageEdgeInsets:rectEdge];
     [button setFrame:rect];
     
     return button;

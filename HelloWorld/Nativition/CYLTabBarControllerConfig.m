@@ -10,23 +10,49 @@
 
 static CGFloat const CYLTabBarControllerHeight = 40.f;
 
-@interface CYLBaseNavigationController : UINavigationController
+@interface CYLBaseNavigationController : UINavigationController<UINavigationControllerDelegate,UIGestureRecognizerDelegate>
 @end
 
 @implementation CYLBaseNavigationController
-
+//添加侧滑返回事件
+-(void)viewDidLoad{
+    self.delegate = self;
+    __weak typeof(self)  weakSelf = self;
+    if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+        self.interactivePopGestureRecognizer.delegate = weakSelf;
+        self.delegate = weakSelf;
+        
+    }
+}
+-(BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
+{
+    if (gestureRecognizer==self.interactivePopGestureRecognizer) {
+        if (self.viewControllers.count<2||self.visibleViewController == [self.viewControllers objectAtIndex:0]) {
+            return NO;
+        }
+    }
+    
+    return YES;
+}
+// 修改系统返回按钮
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     if (self.viewControllers.count > 0) {
         viewController.hidesBottomBarWhenPushed = YES;
-        UIButton *button = [UnityPBClass initButton:CGRectMake(0, 0, 40, 40) and:@"dismissBack"];
-        
+        UIButton *button = [UnityPBClass initButton:CGRectMake(0, 0, 40, 40) and:@"Back" ImageEdgeInsets:UIEdgeInsetsMake(0, 0, 0, 30)];
+        [button addTarget:self action:@selector(pagePopController) forControlEvents:UIControlEventTouchUpInside];
          UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:button];
         //这里可以设置导航栏的左右按钮 统一管理方法
         viewController.navigationItem.leftBarButtonItem = item;
     }
+    // 解决ios7自带的手滑手势引发的崩溃
+    if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+        self.interactivePopGestureRecognizer.enabled = YES;
+    }
     [super pushViewController:viewController animated:animated];
 }
-
+-(void)pagePopController{
+    [self popViewControllerAnimated:YES];
+}
 @end
 
 //View Controllers

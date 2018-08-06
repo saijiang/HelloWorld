@@ -28,7 +28,7 @@
 
 #pragma mark 退出按钮
 -(void)quitLoginPage{
-    self.quitePageButton = [UnityPBClass initButton:CGRectMake(0, 0, 30, 30) and:@"icon_close"];
+    self.quitePageButton = [UnityPBClass initButton:CGRectMake(0, 0, 30, 30) and:@"icon_close" ImageEdgeInsets:UIEdgeInsetsZero];
     UIBarButtonItem *quiteItem = [[UIBarButtonItem alloc] initWithCustomView:self.quitePageButton];
     self.navigationItem.leftBarButtonItem = quiteItem;
     [self.quitePageButton addTarget:self action:@selector(quiteLoginPageControl) forControlEvents:UIControlEventTouchUpInside];
@@ -63,6 +63,7 @@
         make.right.mas_equalTo(self.view.mas_right).offset(-35); make.top.mas_equalTo(self.passWorldTextField.mas_bottom).offset(20);
         make.height.mas_equalTo(44);
     }];
+    [self.loginButton addTarget:self action:@selector(loginApp) forControlEvents:UIControlEventTouchUpInside];
 
     self.regiseButton = [UnityPBClass initCharacterButton:CGRectZero and:@"注  册" and:18 and:5 and:@"0000FF"];
     [self.view addSubview:self.regiseButton];
@@ -71,7 +72,7 @@
         make.right.mas_equalTo(self.view.mas_right).offset(-35); make.top.mas_equalTo(self.loginButton.mas_bottom).offset(20);
         make.height.mas_equalTo(44);
     }];
-    
+//    self.regiseButton.alpha = 0; alpha = 0 ～ 0.01 时不会响应点击事件
     [self.regiseButton addTarget:self action:@selector(regiseControllerPage) forControlEvents:UIControlEventTouchUpInside];
 }
 #pragma mark 注册页面
@@ -79,6 +80,15 @@
     WWRegiseViewController *regiseController = [[WWRegiseViewController alloc] init];
     [self.navigationController pushViewController:regiseController animated:YES];
 }
+#pragma mark 登陆
+-(void)loginApp{
+    [[WWSaveManageKey initaleManageKey] saveUserAccountID:@"用户accoundid"];
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+}
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self.view endEditing:YES]; //点击 退出编辑
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -13,6 +13,7 @@ target 'HelloWorld' do
  pod 'YYKit', '~> 1.0.9'
  pod 'Masonry', '~> 1.1.0'
  pod 'MJExtension', '~> 3.0.15'
+ pod 'MBProgressHUD', '~> 1.1.0'
 # pod 'Charts', '~> 3.1.1'
 
 end
@@ -33,6 +34,7 @@ pod 'AMapLocation', '~> 2.6.0'
 pod 'YYKit', '~> 1.0.9'
 pod 'Masonry', '~> 1.1.0'
 pod 'MJExtension', '~> 3.0.15'
+pod 'MBProgressHUD', '~> 1.1.0'
 #pod 'Charts', '~> 3.1.1'
 
 end

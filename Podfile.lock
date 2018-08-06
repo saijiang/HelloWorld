@@ -19,6 +19,7 @@ PODS:
     - AMapFoundation (~> 1.4)
   - CYLTabBarController (1.17.6)
   - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
   - MJExtension (3.0.15)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
@@ -29,6 +30,7 @@ DEPENDENCIES:
   - AMapLocation (~> 2.6.0)
   - CYLTabBarController (~> 1.17.6)
   - Masonry (~> 1.1.0)
+  - MBProgressHUD (~> 1.1.0)
   - MJExtension (~> 3.0.15)
   - YYKit (~> 1.0.9)
 
@@ -39,6 +41,7 @@ SPEC REPOS:
     - AMapLocation
     - CYLTabBarController
     - Masonry
+    - MBProgressHUD
     - MJExtension
     - YYKit
 
@@ -48,9 +51,10 @@ SPEC CHECKSUMS:
   AMapLocation: 55116a2c8956eab7550cbb56e989aa5cdcc424e3
   CYLTabBarController: c374643dea6dadece8bdff9c70f7387f8ffd7d08
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJExtension: 3f039575db1b135a20699ad298713b26acec1528
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: f9aac7360198303c57b52c43f3f7cc667c6a0eb1
+PODFILE CHECKSUM: aec1faef685468540f5a5bb45974f755c27c1ebd
 
 COCOAPODS: 1.5.3

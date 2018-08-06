@@ -11,6 +11,7 @@
 #import "global.h"
 #import "WWWeatherView.h"
 #import "WWeatherModel.h"
+#import "WWRegiseViewController.h"
 @interface CYLHomeViewController ()
 @property(nonatomic,strong) WWWeatherView *WWeatherView;
 @property(nonatomic,strong) WWeatherModel *weatherModel;
@@ -32,7 +33,6 @@
     [WWUserAccessManager userNextStepJudgeAccessLonginHandle:nil normalHandle:^{
         NSLog(@"页面跳转");
     }];
-//    [self currentWIFIName];
 
 }
 
@@ -114,6 +114,8 @@
     
     self.navigationController.navigationBar.translucent = NO;
 }
+
+
 
 
 - (void)didReceiveMemoryWarning {

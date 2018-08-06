@@ -20,7 +20,7 @@
 #import "WWUserAccessManager.h"
 #import "WWSaveManageKey.h"
 #import "UnityPBClass.h"
-
+#import "MBProgressHUD.h"
 
 #define HeWeatherKey @"78bba176a43a4dd4a3fc5590b55542f3"
 #define HeWeatherUserName @"HE1807031059001226"
