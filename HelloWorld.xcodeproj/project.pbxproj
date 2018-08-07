@@ -31,6 +31,8 @@
 		457927B220F4900400C37792 /* UnityPBClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 457927B020F4900400C37792 /* UnityPBClass.m */; };
 		457C446E20F72F75001B236A /* NSString+string.m in Sources */ = {isa = PBXBuildFile; fileRef = 457C446D20F72F75001B236A /* NSString+string.m */; };
 		457C446F20F72F75001B236A /* NSString+string.m in Sources */ = {isa = PBXBuildFile; fileRef = 457C446D20F72F75001B236A /* NSString+string.m */; };
+		45801C1121192F2700D280B2 /* WWAvplayerShadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45801C1021192F2700D280B2 /* WWAvplayerShadeView.m */; };
+		45801C1221192F2700D280B2 /* WWAvplayerShadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45801C1021192F2700D280B2 /* WWAvplayerShadeView.m */; };
 		45A2132420EB084C0095A250 /* JJWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2132320EB084C0095A250 /* JJWIFI.m */; };
 		45A2132520EB084C0095A250 /* JJWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2132320EB084C0095A250 /* JJWIFI.m */; };
 		45A2132920EB22020095A250 /* HeWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A2132820EB22020095A250 /* HeWeather.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -130,6 +132,8 @@
 		457927B020F4900400C37792 /* UnityPBClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnityPBClass.m; sourceTree = "<group>"; };
 		457C446C20F72F75001B236A /* NSString+string.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+string.h"; sourceTree = "<group>"; };
 		457C446D20F72F75001B236A /* NSString+string.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+string.m"; sourceTree = "<group>"; };
+		45801C0F21192F2700D280B2 /* WWAvplayerShadeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWAvplayerShadeView.h; sourceTree = "<group>"; };
+		45801C1021192F2700D280B2 /* WWAvplayerShadeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWAvplayerShadeView.m; sourceTree = "<group>"; };
 		45A2132220EB084C0095A250 /* JJWIFI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJWIFI.h; sourceTree = "<group>"; };
 		45A2132320EB084C0095A250 /* JJWIFI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJWIFI.m; sourceTree = "<group>"; };
 		45A2132820EB22020095A250 /* HeWeather.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HeWeather.framework; sourceTree = "<group>"; };
@@ -355,6 +359,23 @@
 			path = "类别类";
 			sourceTree = "<group>";
 		};
+		45801C0D21192E7D00D280B2 /* avplayer */ = {
+			isa = PBXGroup;
+			children = (
+				45801C0E21192EE900D280B2 /* 遮罩视图 */,
+			);
+			path = avplayer;
+			sourceTree = "<group>";
+		};
+		45801C0E21192EE900D280B2 /* 遮罩视图 */ = {
+			isa = PBXGroup;
+			children = (
+				45801C0F21192F2700D280B2 /* WWAvplayerShadeView.h */,
+				45801C1021192F2700D280B2 /* WWAvplayerShadeView.m */,
+			);
+			path = "遮罩视图";
+			sourceTree = "<group>";
+		};
 		45A2132020EB07F20095A250 /* Nsobject */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,6 +413,7 @@
 		45A2132B20EB4DBF0095A250 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				45801C0D21192E7D00D280B2 /* avplayer */,
 				4579279E20F4612900C37792 /* Class */,
 				45A2133F20EB78A90095A250 /* 和风天气状况代码和图标文档.md */,
 				45A2133120EB6C100095A250 /* Http */,
@@ -869,6 +891,7 @@
 				4516D9CD20F5990200DDB110 /* weatherBaseModel.m in Sources */,
 				CEDC7734207DB03300036186 /* TableRooterViewController.m in Sources */,
 				45A2133520EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m in Sources */,
+				45801C1221192F2700D280B2 /* WWAvplayerShadeView.m in Sources */,
 				452DF0EF20F32E47003404E4 /* WWWeatherView.m in Sources */,
 				457927A320F4616800C37792 /* WWUserAccessManager.m in Sources */,
 				CE429680207B55B8009024B3 /* ViewController.m in Sources */,
@@ -906,6 +929,7 @@
 				4516D9CC20F5990200DDB110 /* weatherBaseModel.m in Sources */,
 				CEDC7733207DB03300036186 /* TableRooterViewController.m in Sources */,
 				45A2133420EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m in Sources */,
+				45801C1121192F2700D280B2 /* WWAvplayerShadeView.m in Sources */,
 				452DF0EE20F32E47003404E4 /* WWWeatherView.m in Sources */,
 				457927A220F4616800C37792 /* WWUserAccessManager.m in Sources */,
 				CE94CD87207B51920050F910 /* ViewController.m in Sources */,
