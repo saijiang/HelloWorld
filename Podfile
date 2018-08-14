@@ -14,6 +14,7 @@ target 'HelloWorld' do
  pod 'Masonry', '~> 1.1.0'
  pod 'MJExtension', '~> 3.0.15'
  pod 'MBProgressHUD', '~> 1.1.0'
+ pod 'CocoaAsyncSocket', '~> 7.6.3'
 # pod 'Charts', '~> 3.1.1'
 
 end
@@ -35,6 +36,7 @@ pod 'YYKit', '~> 1.0.9'
 pod 'Masonry', '~> 1.1.0'
 pod 'MJExtension', '~> 3.0.15'
 pod 'MBProgressHUD', '~> 1.1.0'
+pod 'CocoaAsyncSocket', '~> 7.6.3'
 #pod 'Charts', '~> 3.1.1'
 
 end

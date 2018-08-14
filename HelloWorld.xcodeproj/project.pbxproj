@@ -21,6 +21,10 @@
 		452DF0EF20F32E47003404E4 /* WWWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0ED20F32E47003404E4 /* WWWeatherView.m */; };
 		452DF0F420F3579C003404E4 /* WWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0F320F3579C003404E4 /* WWeatherModel.m */; };
 		452DF0F520F3579C003404E4 /* WWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0F320F3579C003404E4 /* WWeatherModel.m */; };
+		45769544211AC9A00045E6B7 /* WWAvplayCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45769543211AC9A00045E6B7 /* WWAvplayCommentView.m */; };
+		45769545211AC9A00045E6B7 /* WWAvplayCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45769543211AC9A00045E6B7 /* WWAvplayCommentView.m */; };
+		45769549211AE0B20045E6B7 /* playView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45769548211AE0B20045E6B7 /* playView.m */; };
+		4576954A211AE0B20045E6B7 /* playView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45769548211AE0B20045E6B7 /* playView.m */; };
 		457927A220F4616800C37792 /* WWUserAccessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 457927A120F4616800C37792 /* WWUserAccessManager.m */; };
 		457927A320F4616800C37792 /* WWUserAccessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 457927A120F4616800C37792 /* WWUserAccessManager.m */; };
 		457927A720F47ACB00C37792 /* WWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457927A620F47ACB00C37792 /* WWLoginViewController.m */; };
@@ -122,6 +126,10 @@
 		452DF0ED20F32E47003404E4 /* WWWeatherView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWWeatherView.m; sourceTree = "<group>"; };
 		452DF0F220F3579C003404E4 /* WWeatherModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWeatherModel.h; sourceTree = "<group>"; };
 		452DF0F320F3579C003404E4 /* WWeatherModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWeatherModel.m; sourceTree = "<group>"; };
+		45769542211AC9A00045E6B7 /* WWAvplayCommentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWAvplayCommentView.h; sourceTree = "<group>"; };
+		45769543211AC9A00045E6B7 /* WWAvplayCommentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWAvplayCommentView.m; sourceTree = "<group>"; };
+		45769547211AE0B20045E6B7 /* playView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playView.h; sourceTree = "<group>"; };
+		45769548211AE0B20045E6B7 /* playView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playView.m; sourceTree = "<group>"; };
 		457927A020F4616800C37792 /* WWUserAccessManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWUserAccessManager.h; sourceTree = "<group>"; };
 		457927A120F4616800C37792 /* WWUserAccessManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWUserAccessManager.m; sourceTree = "<group>"; };
 		457927A520F47ACB00C37792 /* WWLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWLoginViewController.h; sourceTree = "<group>"; };
@@ -297,6 +305,24 @@
 			path = "天气";
 			sourceTree = "<group>";
 		};
+		45769541211AC8D90045E6B7 /* 评论试图 */ = {
+			isa = PBXGroup;
+			children = (
+				45769542211AC9A00045E6B7 /* WWAvplayCommentView.h */,
+				45769543211AC9A00045E6B7 /* WWAvplayCommentView.m */,
+			);
+			path = "评论试图";
+			sourceTree = "<group>";
+		};
+		45769546211ADDE50045E6B7 /* avplayerView */ = {
+			isa = PBXGroup;
+			children = (
+				45769547211AE0B20045E6B7 /* playView.h */,
+				45769548211AE0B20045E6B7 /* playView.m */,
+			);
+			path = avplayerView;
+			sourceTree = "<group>";
+		};
 		4579279E20F4612900C37792 /* Class */ = {
 			isa = PBXGroup;
 			children = (
@@ -362,6 +388,8 @@
 		45801C0D21192E7D00D280B2 /* avplayer */ = {
 			isa = PBXGroup;
 			children = (
+				45769546211ADDE50045E6B7 /* avplayerView */,
+				45769541211AC8D90045E6B7 /* 评论试图 */,
 				45801C0E21192EE900D280B2 /* 遮罩视图 */,
 			);
 			path = avplayer;
@@ -881,6 +909,7 @@
 				CEDC773E207DF39400036186 /* CYLTabBarControllerConfig.m in Sources */,
 				457927AD20F480DD00C37792 /* WWSaveManageKey.m in Sources */,
 				CEDC775B207DF66400036186 /* ModuleRooterViewController.m in Sources */,
+				4576954A211AE0B20045E6B7 /* playView.m in Sources */,
 				452DF0E920F2F6AD003404E4 /* WWLocation.m in Sources */,
 				4516D9D520F5993100DDB110 /* weatherUpDataModel.m in Sources */,
 				45A2132520EB084C0095A250 /* JJWIFI.m in Sources */,
@@ -902,6 +931,7 @@
 				457927A820F47ACB00C37792 /* WWLoginViewController.m in Sources */,
 				452DF0F520F3579C003404E4 /* WWeatherModel.m in Sources */,
 				CEDC776B207DF6E700036186 /* CYLHomeViewController.m in Sources */,
+				45769545211AC9A00045E6B7 /* WWAvplayCommentView.m in Sources */,
 				CE429682207B55B8009024B3 /* AppDelegate.m in Sources */,
 				45A2133D20EB70B70095A250 /* MMHttpDataManager.m in Sources */,
 				45A2133920EB6DEE0095A250 /* MMNetWorking.m in Sources */,
@@ -919,6 +949,7 @@
 				CEDC773D207DF39400036186 /* CYLTabBarControllerConfig.m in Sources */,
 				457927AC20F480DD00C37792 /* WWSaveManageKey.m in Sources */,
 				CEDC775A207DF66400036186 /* ModuleRooterViewController.m in Sources */,
+				45769549211AE0B20045E6B7 /* playView.m in Sources */,
 				452DF0E820F2F6AD003404E4 /* WWLocation.m in Sources */,
 				4516D9D420F5993100DDB110 /* weatherUpDataModel.m in Sources */,
 				45A2132420EB084C0095A250 /* JJWIFI.m in Sources */,
@@ -940,6 +971,7 @@
 				457927A720F47ACB00C37792 /* WWLoginViewController.m in Sources */,
 				452DF0F420F3579C003404E4 /* WWeatherModel.m in Sources */,
 				CEDC776A207DF6E700036186 /* CYLHomeViewController.m in Sources */,
+				45769544211AC9A00045E6B7 /* WWAvplayCommentView.m in Sources */,
 				CE94CD84207B51920050F910 /* AppDelegate.m in Sources */,
 				45A2133C20EB70B70095A250 /* MMHttpDataManager.m in Sources */,
 				45A2133820EB6DEE0095A250 /* MMNetWorking.m in Sources */,

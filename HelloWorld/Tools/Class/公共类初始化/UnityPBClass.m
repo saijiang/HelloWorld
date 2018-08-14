@@ -91,6 +91,15 @@ static UnityPBClass *unityObject = nil;
     field.secureTextEntry = issecureText;
     return field;
 }
-
+#pragma mark  textfiled no image
++(UITextField *)initNoImageTextFiled:(NSString *)plachorStr andTextFount:(CGFloat)fount and:(CGRect)rect and:(BOOL)issecureText{
+    UITextField *field = [[UITextField alloc] init];
+    field.placeholder = plachorStr;
+    field.frame = rect;
+    field.textAlignment = NSTextAlignmentLeft;
+    field.borderStyle = UITextBorderStyleRoundedRect;
+    field.secureTextEntry = issecureText;
+    return field;
+}
 
 @end

@@ -9,7 +9,7 @@
 #import "WWRegiseViewController.h"
 
 @interface WWRegiseViewController ()
-
+@property(nonatomic,strong) WWAvplayerShadeView *avplayerShadeView;
 @end
 
 @implementation WWRegiseViewController
@@ -17,9 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    [self initUI];
     // Do any additional setup after loading the view.
 }
-
+#pragma mark 视频
+-(void)initUI{
+    self.avplayerShadeView = [WWUserAccessManager initWWAvplayerShadeViewMasonryAutolouty:CGRectZero];
+    [self.view addSubview:self.avplayerShadeView];
+    [self.avplayerShadeView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.bottom.top.mas_equalTo(self.view);
+    }];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

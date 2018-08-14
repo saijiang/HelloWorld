@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "WWAvplayerShadeView.h"
 @interface WWUserAccessManager : NSObject
 
 +(void) userNextStepJudgeAccessLonginHandle:(void(^)(void))loginHandle normalHandle:(void(^)(void))normalHandle;
++(WWAvplayerShadeView *) initWWAvplayerShadeViewMasonryAutolouty:(CGRect)rect;
 @end

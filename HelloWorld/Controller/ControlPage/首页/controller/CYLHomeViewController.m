@@ -12,9 +12,11 @@
 #import "WWWeatherView.h"
 #import "WWeatherModel.h"
 #import "WWRegiseViewController.h"
+#import "WWAvplayerShadeView.h"
 @interface CYLHomeViewController ()
 @property(nonatomic,strong) WWWeatherView *WWeatherView;
 @property(nonatomic,strong) WWeatherModel *weatherModel;
+@property(nonatomic,strong) WWAvplayerShadeView *shadeView;
 @end
 
 @implementation CYLHomeViewController
@@ -29,11 +31,13 @@
          make.top.mas_equalTo(self.view.mas_top).offset(64);
          make.height.mas_equalTo(150);
      }];
-    
+    __block int a = 0;
     [WWUserAccessManager userNextStepJudgeAccessLonginHandle:nil normalHandle:^{
         NSLog(@"页面跳转");
+        a = a + 1;
+        NSLog(@"回调%d",a);
     }];
-
+       NSLog(@"后年%d",a);
 }
 
 

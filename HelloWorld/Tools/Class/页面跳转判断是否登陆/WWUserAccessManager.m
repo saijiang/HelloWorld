@@ -10,6 +10,7 @@
 #import "WWLoginViewController.h"
 #import "CYLTabBarControllerConfig.h"
 #import "AppDelegate.h"
+
 @implementation WWUserAccessManager
 +(void) userNextStepJudgeAccessLonginHandle:(void(^)(void))loginHandle normalHandle:(void(^)(void))normalHandle{
     if ([[WWSaveManageKey initaleManageKey] judgeUserLogin]) {
@@ -30,4 +31,13 @@
         }
     }
 }
+
+#pragma mark 遮罩层
++(WWAvplayerShadeView *) initWWAvplayerShadeViewMasonryAutolouty:(CGRect)rect{
+    WWAvplayerShadeView *view = [[WWAvplayerShadeView alloc] init];
+    view.frame = rect;
+    return view;
+}
+
+
 @end

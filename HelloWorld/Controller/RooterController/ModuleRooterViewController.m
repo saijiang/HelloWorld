@@ -21,6 +21,7 @@
     self.table.delegate = self;
     self.table.dataSource = self;
     [self.view addSubview:self.table];
+    self.table.hidden = YES;
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.arr.count;
