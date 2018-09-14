@@ -13,6 +13,7 @@
 #import "WWeatherModel.h"
 #import "WWRegiseViewController.h"
 #import "WWAvplayerShadeView.h"
+#import "UserCommentViewController.h"
 @interface CYLHomeViewController ()
 @property(nonatomic,strong) WWWeatherView *WWeatherView;
 @property(nonatomic,strong) WWeatherModel *weatherModel;
@@ -25,6 +26,14 @@
     [super viewDidLoad];
     [self.view addSubview:self.WWeatherView];
     [self.WWeatherView getWeatherStation];
+    
+    __weak typeof(self) weakSelf = self;
+    
+    self.WWeatherView.skipLocationPage = ^{
+//        NSLog(@"跳转");
+        UserCommentViewController *commentPageController = [[UserCommentViewController alloc] init];
+        [weakSelf.navigationController pushViewController:commentPageController animated:YES];
+    };
      [self.WWeatherView mas_makeConstraints:^(MASConstraintMaker *make) {
          make.left.mas_equalTo(self.view.mas_left).offset(10);
          make.right.mas_equalTo(self.view.mas_right).offset(-10);
@@ -38,6 +47,29 @@
         NSLog(@"回调%d",a);
     }];
        NSLog(@"后年%d",a);
+    
+    
+   // 有a、b、c、d 4个异步请求，如何判断a、b、c、d都完成执行？如果需要a、b、c、d顺序执行，该如何实现？
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_group_t group = dispatch_group_create();
+    dispatch_group_async(group, queue, ^{ NSLog(@"任务a");});
+    dispatch_group_async(group, queue, ^{ NSLog(@"任务b"); });
+    dispatch_group_async(group, queue, ^{ NSLog(@"任务c"); });
+    dispatch_group_async(group, queue, ^{ NSLog(@"任务d"); });
+    dispatch_group_notify(group,dispatch_get_main_queue(), ^{
+        // 在a、b、c、d异步执行完成后，会回调这里
+        NSLog(@"任务完成后回调！");
+    });
+    
+    // iOS 高效查询数组中是否包含某个特定的元素
+    NSArray *gaoxiao = [NSArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9", nil];
+    
+    [gaoxiao enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if ([obj isEqualToString:@"9"]) {
+            NSLog(@"第%ld个元素",idx);
+        }
+    }];
+    
 }
 
 
@@ -92,32 +124,7 @@
 //    [self.WWeatherView getWeatherStation];
  
 }
-#pragma mark 设置导航栏透明
--(void)navaigationTransparent{
-    UIImage *image = [[UIImage alloc] init];
-    
-    //设置导航栏背景图片为一个空的image，这样就透明了
-    
-    [self.navigationController.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
-    
-    //去掉透明后导航栏下边的黑边
-    
-    [self.navigationController.navigationBar setShadowImage:image];
-    
-    self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
-    
-    self.navigationController.navigationBar.translucent = YES;
-}
-//设置导航栏还原
--(void)navaigationOld{
-    [self.navigationController.navigationBar setBackgroundImage:nil forBarMetrics:UIBarMetricsDefault];
-    
-    [self.navigationController.navigationBar setShadowImage:nil];
-    
-    self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
-    
-    self.navigationController.navigationBar.translucent = NO;
-}
+
 
 
 

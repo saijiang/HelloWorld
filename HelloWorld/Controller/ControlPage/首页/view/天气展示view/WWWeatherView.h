@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^locationSkip)(void);
+
 @interface WWWeatherView : UIView
 -(void)getWeatherStation;
+// block 回调
+@property(nonatomic,copy) locationSkip skipLocationPage;
 @end

@@ -21,6 +21,16 @@
 		452DF0EF20F32E47003404E4 /* WWWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0ED20F32E47003404E4 /* WWWeatherView.m */; };
 		452DF0F420F3579C003404E4 /* WWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0F320F3579C003404E4 /* WWeatherModel.m */; };
 		452DF0F520F3579C003404E4 /* WWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 452DF0F320F3579C003404E4 /* WWeatherModel.m */; };
+		45385924212CFE0F00372032 /* otherBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45385923212CFE0F00372032 /* otherBaseViewController.m */; };
+		45385925212CFE0F00372032 /* otherBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45385923212CFE0F00372032 /* otherBaseViewController.m */; };
+		45385929212CFE6500372032 /* UserCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45385928212CFE6500372032 /* UserCommentViewController.m */; };
+		4538592A212CFE6500372032 /* UserCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45385928212CFE6500372032 /* UserCommentViewController.m */; };
+		4538592E212CFFF000372032 /* commetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538592D212CFFF000372032 /* commetCell.m */; };
+		4538592F212CFFF000372032 /* commetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538592D212CFFF000372032 /* commetCell.m */; };
+		45385932212CFFFF00372032 /* replayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45385931212CFFFF00372032 /* replayCell.m */; };
+		45385933212CFFFF00372032 /* replayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45385931212CFFFF00372032 /* replayCell.m */; };
+		45385937212D3BDF00372032 /* CommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45385936212D3BDF00372032 /* CommentModel.m */; };
+		45385938212D3BDF00372032 /* CommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45385936212D3BDF00372032 /* CommentModel.m */; };
 		45769544211AC9A00045E6B7 /* WWAvplayCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45769543211AC9A00045E6B7 /* WWAvplayCommentView.m */; };
 		45769545211AC9A00045E6B7 /* WWAvplayCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45769543211AC9A00045E6B7 /* WWAvplayCommentView.m */; };
 		45769549211AE0B20045E6B7 /* playView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45769548211AE0B20045E6B7 /* playView.m */; };
@@ -126,6 +136,16 @@
 		452DF0ED20F32E47003404E4 /* WWWeatherView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWWeatherView.m; sourceTree = "<group>"; };
 		452DF0F220F3579C003404E4 /* WWeatherModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWeatherModel.h; sourceTree = "<group>"; };
 		452DF0F320F3579C003404E4 /* WWeatherModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWeatherModel.m; sourceTree = "<group>"; };
+		45385922212CFE0F00372032 /* otherBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = otherBaseViewController.h; sourceTree = "<group>"; };
+		45385923212CFE0F00372032 /* otherBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = otherBaseViewController.m; sourceTree = "<group>"; };
+		45385927212CFE6500372032 /* UserCommentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserCommentViewController.h; sourceTree = "<group>"; };
+		45385928212CFE6500372032 /* UserCommentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserCommentViewController.m; sourceTree = "<group>"; };
+		4538592C212CFFF000372032 /* commetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commetCell.h; sourceTree = "<group>"; };
+		4538592D212CFFF000372032 /* commetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = commetCell.m; sourceTree = "<group>"; };
+		45385930212CFFFF00372032 /* replayCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = replayCell.h; sourceTree = "<group>"; };
+		45385931212CFFFF00372032 /* replayCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = replayCell.m; sourceTree = "<group>"; };
+		45385935212D3BDF00372032 /* CommentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentModel.h; sourceTree = "<group>"; };
+		45385936212D3BDF00372032 /* CommentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentModel.m; sourceTree = "<group>"; };
 		45769542211AC9A00045E6B7 /* WWAvplayCommentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWAvplayCommentView.h; sourceTree = "<group>"; };
 		45769543211AC9A00045E6B7 /* WWAvplayCommentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWAvplayCommentView.m; sourceTree = "<group>"; };
 		45769547211AE0B20045E6B7 /* playView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playView.h; sourceTree = "<group>"; };
@@ -303,6 +323,47 @@
 				4516D9D320F5993100DDB110 /* weatherUpDataModel.m */,
 			);
 			path = "天气";
+			sourceTree = "<group>";
+		};
+		45385921212CFDFA00372032 /* otherPage */ = {
+			isa = PBXGroup;
+			children = (
+				45385926212CFE4700372032 /* 评论展示页面 */,
+				45385922212CFE0F00372032 /* otherBaseViewController.h */,
+				45385923212CFE0F00372032 /* otherBaseViewController.m */,
+			);
+			path = otherPage;
+			sourceTree = "<group>";
+		};
+		45385926212CFE4700372032 /* 评论展示页面 */ = {
+			isa = PBXGroup;
+			children = (
+				45385934212D3B6B00372032 /* model */,
+				4538592B212CFFCC00372032 /* cell */,
+				45385927212CFE6500372032 /* UserCommentViewController.h */,
+				45385928212CFE6500372032 /* UserCommentViewController.m */,
+			);
+			path = "评论展示页面";
+			sourceTree = "<group>";
+		};
+		4538592B212CFFCC00372032 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				4538592C212CFFF000372032 /* commetCell.h */,
+				4538592D212CFFF000372032 /* commetCell.m */,
+				45385930212CFFFF00372032 /* replayCell.h */,
+				45385931212CFFFF00372032 /* replayCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		45385934212D3B6B00372032 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				45385935212D3BDF00372032 /* CommentModel.h */,
+				45385936212D3BDF00372032 /* CommentModel.m */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		45769541211AC8D90045E6B7 /* 评论试图 */ = {
@@ -600,6 +661,7 @@
 		CEDC773F207DF3FD00036186 /* ControlPage */ = {
 			isa = PBXGroup;
 			children = (
+				45385921212CFDFA00372032 /* otherPage */,
 				457927A420F47AAD00C37792 /* 登陆注册 */,
 				CEDC7740207DF3FD00036186 /* 同城 */,
 				CEDC7741207DF3FD00036186 /* 我的 */,
@@ -915,10 +977,12 @@
 				45A2132520EB084C0095A250 /* JJWIFI.m in Sources */,
 				CEDC7763207DF6BA00036186 /* CYLMineViewController.m in Sources */,
 				CEDC7767207DF6D100036186 /* CYLMessageViewController.m in Sources */,
+				4538592A212CFE6500372032 /* UserCommentViewController.m in Sources */,
 				457C446F20F72F75001B236A /* NSString+string.m in Sources */,
 				CEDC7739207DB07E00036186 /* NSRunLoopViewController.m in Sources */,
 				4516D9CD20F5990200DDB110 /* weatherBaseModel.m in Sources */,
 				CEDC7734207DB03300036186 /* TableRooterViewController.m in Sources */,
+				45385938212D3BDF00372032 /* CommentModel.m in Sources */,
 				45A2133520EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m in Sources */,
 				45801C1221192F2700D280B2 /* WWAvplayerShadeView.m in Sources */,
 				452DF0EF20F32E47003404E4 /* WWWeatherView.m in Sources */,
@@ -929,12 +993,15 @@
 				CE429681207B55B8009024B3 /* main.m in Sources */,
 				45A2133020EB4E060095A250 /* global.m in Sources */,
 				457927A820F47ACB00C37792 /* WWLoginViewController.m in Sources */,
+				45385933212CFFFF00372032 /* replayCell.m in Sources */,
 				452DF0F520F3579C003404E4 /* WWeatherModel.m in Sources */,
 				CEDC776B207DF6E700036186 /* CYLHomeViewController.m in Sources */,
 				45769545211AC9A00045E6B7 /* WWAvplayCommentView.m in Sources */,
 				CE429682207B55B8009024B3 /* AppDelegate.m in Sources */,
 				45A2133D20EB70B70095A250 /* MMHttpDataManager.m in Sources */,
 				45A2133920EB6DEE0095A250 /* MMNetWorking.m in Sources */,
+				45385925212CFE0F00372032 /* otherBaseViewController.m in Sources */,
+				4538592F212CFFF000372032 /* commetCell.m in Sources */,
 				CEDC775F207DF69C00036186 /* CYLSameCityViewController.m in Sources */,
 				45D3E5B32105AB32003CC903 /* UIImage+image.m in Sources */,
 				45231EC920F84F84001DA2E0 /* WWRegiseViewController.m in Sources */,
@@ -955,10 +1022,12 @@
 				45A2132420EB084C0095A250 /* JJWIFI.m in Sources */,
 				CEDC7762207DF6BA00036186 /* CYLMineViewController.m in Sources */,
 				CEDC7766207DF6D100036186 /* CYLMessageViewController.m in Sources */,
+				45385929212CFE6500372032 /* UserCommentViewController.m in Sources */,
 				457C446E20F72F75001B236A /* NSString+string.m in Sources */,
 				CEDC7738207DB07E00036186 /* NSRunLoopViewController.m in Sources */,
 				4516D9CC20F5990200DDB110 /* weatherBaseModel.m in Sources */,
 				CEDC7733207DB03300036186 /* TableRooterViewController.m in Sources */,
+				45385937212D3BDF00372032 /* CommentModel.m in Sources */,
 				45A2133420EB6D910095A250 /* AFHTTPSessionManager+Synchronous.m in Sources */,
 				45801C1121192F2700D280B2 /* WWAvplayerShadeView.m in Sources */,
 				452DF0EE20F32E47003404E4 /* WWWeatherView.m in Sources */,
@@ -969,12 +1038,15 @@
 				CE94CD92207B51920050F910 /* main.m in Sources */,
 				45A2132F20EB4E060095A250 /* global.m in Sources */,
 				457927A720F47ACB00C37792 /* WWLoginViewController.m in Sources */,
+				45385932212CFFFF00372032 /* replayCell.m in Sources */,
 				452DF0F420F3579C003404E4 /* WWeatherModel.m in Sources */,
 				CEDC776A207DF6E700036186 /* CYLHomeViewController.m in Sources */,
 				45769544211AC9A00045E6B7 /* WWAvplayCommentView.m in Sources */,
 				CE94CD84207B51920050F910 /* AppDelegate.m in Sources */,
 				45A2133C20EB70B70095A250 /* MMHttpDataManager.m in Sources */,
 				45A2133820EB6DEE0095A250 /* MMNetWorking.m in Sources */,
+				45385924212CFE0F00372032 /* otherBaseViewController.m in Sources */,
+				4538592E212CFFF000372032 /* commetCell.m in Sources */,
 				CEDC775E207DF69C00036186 /* CYLSameCityViewController.m in Sources */,
 				45D3E5B22105AB32003CC903 /* UIImage+image.m in Sources */,
 				45231EC820F84F84001DA2E0 /* WWRegiseViewController.m in Sources */,

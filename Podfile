@@ -15,6 +15,8 @@ target 'HelloWorld' do
  pod 'MJExtension', '~> 3.0.15'
  pod 'MBProgressHUD', '~> 1.1.0'
  pod 'CocoaAsyncSocket', '~> 7.6.3'
+ pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+ pod 'SDWebImage', '~> 4.4.0'
 # pod 'Charts', '~> 3.1.1'
 
 end
@@ -37,6 +39,8 @@ pod 'Masonry', '~> 1.1.0'
 pod 'MJExtension', '~> 3.0.15'
 pod 'MBProgressHUD', '~> 1.1.0'
 pod 'CocoaAsyncSocket', '~> 7.6.3'
+pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+pod 'SDWebImage', '~> 4.4.0'
 #pod 'Charts', '~> 3.1.1'
 
 end

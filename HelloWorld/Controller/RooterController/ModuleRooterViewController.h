@@ -11,4 +11,6 @@
 @interface ModuleRooterViewController : UIViewController
 @property(nonatomic,strong) UITableView *table;
 @property(nonatomic,copy) NSMutableArray *arr;
+-(void)navaigationTransparent;
+-(void)navaigationOld;
 @end

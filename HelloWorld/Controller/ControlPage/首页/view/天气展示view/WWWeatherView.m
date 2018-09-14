@@ -15,6 +15,7 @@
     UILabel *_sayLabel;//今日天气
     UILabel *_currentWeatherLabel;//当前天气状态
     UILabel *_weatherSayLabel;//天气状况说明
+    UIControl *_switchLocation;
 }
 @end
 
@@ -34,6 +35,15 @@
     [_loctationImage mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(self.mas_top).offset(5);
         make.left.mas_equalTo(self.mas_left).offset(10);
+    }];
+    
+    _switchLocation = [[UIControl alloc] init];
+    [_switchLocation addTarget:self action:@selector(userSwitchLocation) forControlEvents:UIControlEventTouchUpInside];
+    [self addSubview:_switchLocation];
+    [_switchLocation mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.mas_equalTo(_loctationImage.mas_centerX);
+        make.centerY.mas_equalTo(_loctationImage.mas_centerY);
+        make.width.height.mas_equalTo(20);
     }];
     
     _streeName = [UnityPBClass initLabel:CGRectZero and:12 and:@"" and:NSTextAlignmentCenter and:@"DA70D6"];
@@ -83,6 +93,11 @@
     };
 }
 
+#pragma mark 点击切换定位位置
+-(void)userSwitchLocation{
+    NSLog(@"点击切换位置");
+    self.skipLocationPage();
+}
 
 /*
 // Only override drawRect: if you perform custom drawing.
